@@ -121,7 +121,7 @@ exposures:
 
   - name: monthly_executive_report
     description: "Monthly executive report with KPIs, trends, and strategic insights"
-    type: report
+    type: analysis
     maturity: high
     url: https://reports.oilgas-services.com/monthly-executive
     owner:
