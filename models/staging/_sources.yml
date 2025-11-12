@@ -4,7 +4,7 @@ sources:
   - name: raw
     description: "Raw seed data loaded into Snowflake"
     database: oilgas_demo
-    schema: raw
+    schema: analytics_raw
     tables:
       - name: raw_rigs
         description: "Raw rig data"
