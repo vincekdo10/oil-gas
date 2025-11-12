@@ -65,3 +65,4 @@ semantic_models:
       - name: equipment_count
         description: "Number of equipment assets"
         agg: count_distinct
+        expr: equipment_id
