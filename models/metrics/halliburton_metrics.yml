@@ -28,13 +28,14 @@ metrics:
         join_to_timespine: true
   
   # Operational Metrics
-  - name: rig_utilization_rate
-    description: "Average rig utilization percentage"
+  - name: active_rig_days
+    description: "Total active rig days"
     type: simple
-    label: "Rig Utilization Rate"
+    label: "Active Rig Days"
     type_params:
       measure:
-        name: avg_utilization_pct_ltm
+        name: active_rig_days
+        join_to_timespine: true
   
   - name: avg_day_rate
     description: "Average daily rig rate"
@@ -43,37 +44,23 @@ metrics:
     type_params:
       measure:
         name: avg_day_rate
+        join_to_timespine: true
   
   # Safety Metrics
-  - name: safety_incident_rate
-    description: "Safety incident rate per 200,000 hours"
+  - name: total_safety_incidents
+    description: "Total safety incidents"
     type: simple
-    label: "Safety Incident Rate"
+    label: "Total Safety Incidents"
     type_params:
       measure:
-        name: avg_incident_rate_ltm
+        name: total_incidents
+        join_to_timespine: true
   
-  - name: critical_incident_count
+  - name: critical_incidents
     description: "Number of critical safety incidents"
     type: simple
     label: "Critical Incidents"
     type_params:
       measure:
-        name: critical_incidents_ltm
-  
-  # Equipment Metrics
-  - name: equipment_utilization
-    description: "Average equipment utilization factor"
-    type: simple
-    label: "Equipment Utilization"
-    type_params:
-      measure:
-        name: avg_utilization_factor
-  
-  - name: total_equipment_value
-    description: "Total current book value of all equipment"
-    type: simple
-    label: "Total Equipment Value"
-    type_params:
-      measure:
-        name: total_equipment_value
+        name: critical_incidents
+        join_to_timespine: true

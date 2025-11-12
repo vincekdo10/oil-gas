@@ -1,13 +1,20 @@
 semantic_models:
   - name: operations
-    description: "Operational metrics semantic model for rig utilization and well performance"
-    model: ref('rig_utilization_summary')
+    description: "Operational metrics semantic model for rig utilization"
+    model: ref('int_rig_utilization_daily')
+    defaults:
+      agg_time_dimension: date_day
     
     entities:
       - name: rig_id
-        type: primary
+        type: foreign
     
     dimensions:
+      - name: date_day
+        type: time
+        type_params:
+          time_granularity: day
+      
       - name: rig_name
         type: categorical
       
@@ -19,31 +26,28 @@ semantic_models:
       
       - name: status
         type: categorical
-      
-      - name: utilization_category_ltm
-        type: categorical
     
     measures:
-      - name: avg_utilization_pct_ltm
-        description: "Average rig utilization percentage (last 12 months)"
-        agg: average
-        expr: utilization_pct_ltm
-      
-      - name: total_active_days_ltm
-        description: "Total active rig days (last 12 months)"
+      - name: active_rig_days
+        description: "Number of active rig days"
         agg: sum
-        expr: active_days_ltm
+        expr: is_active
+      
+      - name: total_rig_days
+        description: "Total rig days"
+        agg: count
       
       - name: avg_day_rate
         description: "Average day rate in USD"
         agg: average
-        expr: current_day_rate_usd
+        expr: day_rate_usd
       
-      - name: total_revenue_potential_ltm
-        description: "Total revenue potential (last 12 months)"
+      - name: total_revenue_potential
+        description: "Total revenue potential"
         agg: sum
-        expr: revenue_potential_ltm_usd
+        expr: daily_revenue_potential
       
       - name: rig_count
-        description: "Number of rigs"
+        description: "Number of distinct rigs"
         agg: count_distinct
+        expr: rig_id

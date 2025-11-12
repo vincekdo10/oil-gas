@@ -1,13 +1,20 @@
 semantic_models:
   - name: safety
     description: "Safety metrics semantic model for incident tracking"
-    model: ref('safety_dashboard')
+    model: ref('int_safety_metrics_monthly')
+    defaults:
+      agg_time_dimension: incident_month
     
     entities:
       - name: rig_id
-        type: primary
+        type: foreign
     
     dimensions:
+      - name: incident_month
+        type: time
+        type_params:
+          time_granularity: month
+      
       - name: rig_name
         type: categorical
       
@@ -16,36 +23,27 @@ semantic_models:
       
       - name: rig_type
         type: categorical
-      
-      - name: safety_rating_ltm
-        type: categorical
     
     measures:
-      - name: total_incidents_ytd
-        description: "Total safety incidents year-to-date"
+      - name: total_incidents
+        description: "Total safety incidents"
         agg: sum
-        expr: incidents_ytd
       
-      - name: total_incidents_ltm
-        description: "Total safety incidents (last 12 months)"
+      - name: critical_incidents
+        description: "Critical safety incidents"
         agg: sum
-        expr: incidents_ltm
+        expr: critical_severity_count
       
-      - name: critical_incidents_ltm
-        description: "Critical safety incidents (last 12 months)"
+      - name: total_days_away_from_work
+        description: "Total days away from work due to incidents"
         agg: sum
-        expr: critical_incidents_ltm
       
-      - name: avg_resolution_days_ltm
-        description: "Average days to resolve incidents (last 12 months)"
+      - name: avg_resolution_days
+        description: "Average days to resolve incidents"
         agg: average
-        expr: avg_resolution_days_ltm
+        expr: avg_resolution_days
       
-      - name: avg_incident_rate_ltm
-        description: "Average incident rate per 200k hours (last 12 months)"
-        agg: average
-        expr: incident_rate_ltm
-      
-      - name: rigs_with_incidents
-        description: "Number of rigs with incidents"
+      - name: incident_count
+        description: "Count of incident records"
         agg: count_distinct
+        expr: rig_id
