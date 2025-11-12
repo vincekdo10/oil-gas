@@ -1,0 +1,77 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw seed data loaded into Snowflake"
+    database: oilgas_demo
+    schema: raw
+    tables:
+      - name: raw_rigs
+        description: "Raw rig data"
+        columns:
+          - name: rig_id
+            description: "Unique rig identifier"
+            tests:
+              - unique
+              - not_null
+          - name: status
+            description: "Rig operational status"
+
+      - name: raw_wells
+        description: "Raw well data"
+        columns:
+          - name: well_id
+            description: "Unique well identifier"
+            tests:
+              - unique
+              - not_null
+
+      - name: raw_service_orders
+        description: "Raw service order data"
+        columns:
+          - name: order_id
+            description: "Unique order identifier"
+            tests:
+              - unique
+              - not_null
+          - name: revenue_amount
+            description: "Service revenue"
+            tests:
+              - not_null
+
+      - name: raw_equipment
+        description: "Raw equipment data"
+        columns:
+          - name: equipment_id
+            description: "Unique equipment identifier"
+            tests:
+              - unique
+              - not_null
+
+      - name: raw_safety_incidents
+        description: "Raw safety incident data"
+        columns:
+          - name: incident_id
+            description: "Unique incident identifier"
+            tests:
+              - unique
+              - not_null
+
+      - name: raw_customers
+        description: "Raw customer data"
+        columns:
+          - name: customer_id
+            description: "Unique customer identifier"
+            tests:
+              - unique
+              - not_null
+
+      - name: raw_basins
+        description: "Raw basin data"
+        columns:
+          - name: basin_id
+            description: "Unique basin identifier"
+            tests:
+              - unique
+              - not_null
+

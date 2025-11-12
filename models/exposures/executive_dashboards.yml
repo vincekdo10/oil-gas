@@ -1,0 +1,141 @@
+version: 2
+
+exposures:
+  - name: executive_revenue_dashboard
+    description: "Executive dashboard showing revenue trends, top customers, and service line performance"
+    type: dashboard
+    maturity: high
+    url: https://app.powerbi.com/oilgas/executive-revenue
+    owner:
+      name: Analytics Team
+      email: analytics@oilgas-services.com
+    
+    depends_on:
+      - ref('revenue_by_service_line')
+      - ref('revenue_by_basin')
+      - ref('customer_revenue_summary')
+      - ref('fct_revenue_daily')
+    
+    meta:
+      business_owner: CFO
+      refresh_frequency: daily
+      tool: Power BI
+
+  - name: operations_utilization_dashboard
+    description: "Operational dashboard for rig utilization, well performance, and capacity planning"
+    type: dashboard
+    maturity: high
+    url: https://app.tableau.com/oilgas/operations
+    owner:
+      name: Operations Team
+      email: operations@oilgas-services.com
+    
+    depends_on:
+      - ref('rig_utilization_summary')
+      - ref('well_production_metrics')
+      - ref('dim_rigs')
+      - ref('dim_wells')
+    
+    meta:
+      business_owner: COO
+      refresh_frequency: hourly
+      tool: Tableau
+
+  - name: safety_incident_dashboard
+    description: "Safety dashboard tracking incidents, severity, and resolution times by rig and basin"
+    type: dashboard
+    maturity: high
+    url: https://app.looker.com/oilgas/safety
+    owner:
+      name: Safety Team
+      email: safety@oilgas-services.com
+    
+    depends_on:
+      - ref('safety_dashboard')
+      - ref('int_safety_metrics_monthly')
+      - ref('stg_safety_incidents')
+    
+    meta:
+      business_owner: VP of Safety
+      refresh_frequency: daily
+      tool: Looker
+
+  - name: equipment_maintenance_dashboard
+    description: "Equipment maintenance tracking dashboard with predictive maintenance alerts"
+    type: dashboard
+    maturity: medium
+    url: https://app.powerbi.com/oilgas/equipment-maintenance
+    owner:
+      name: Maintenance Team
+      email: maintenance@oilgas-services.com
+    
+    depends_on:
+      - ref('equipment_maintenance_schedule')
+      - ref('dim_equipment')
+      - ref('int_equipment_utilization')
+    
+    meta:
+      business_owner: VP of Operations
+      refresh_frequency: daily
+      tool: Power BI
+
+  - name: customer_360_dashboard
+    description: "Customer 360 view showing revenue history, contract status, and service preferences"
+    type: dashboard
+    maturity: high
+    url: https://app.tableau.com/oilgas/customer-360
+    owner:
+      name: Sales Team
+      email: sales@oilgas-services.com
+    
+    depends_on:
+      - ref('customer_revenue_summary')
+      - ref('dim_customers')
+      - ref('fact_service_operations')
+    
+    meta:
+      business_owner: VP of Sales
+      refresh_frequency: daily
+      tool: Tableau
+
+  - name: ai_chatbot_interface
+    description: "AI-powered chatbot using dbt Semantic Layer for natural language queries"
+    type: application
+    maturity: medium
+    url: https://chatbot.oilgas-services.com
+    owner:
+      name: Data Science Team
+      email: datascience@oilgas-services.com
+    
+    depends_on:
+      - ref('fact_service_operations')
+      - ref('rig_utilization_summary')
+      - ref('safety_dashboard')
+      - ref('dim_equipment')
+    
+    meta:
+      business_owner: CTO
+      semantic_layer_enabled: true
+      uses_metrics: true
+      tool: Custom AI Application
+
+  - name: monthly_executive_report
+    description: "Monthly executive report with KPIs, trends, and strategic insights"
+    type: report
+    maturity: high
+    url: https://reports.oilgas-services.com/monthly-executive
+    owner:
+      name: Executive Team
+      email: executive@oilgas-services.com
+    
+    depends_on:
+      - ref('revenue_by_service_line')
+      - ref('rig_utilization_summary')
+      - ref('safety_dashboard')
+      - ref('customer_revenue_summary')
+    
+    meta:
+      business_owner: CEO
+      distribution_frequency: monthly
+      format: PDF
+

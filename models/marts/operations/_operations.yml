@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: rig_utilization_summary
+    description: "Rig utilization metrics across multiple time periods"
+    meta:
+      layer: "marts"
+      subdomain: "operations"
+    columns:
+      - name: rig_id
+        description: "Rig identifier"
+      - name: utilization_pct_ltm
+        description: "Utilization % last 12 months"
+
+  - name: well_production_metrics
+    description: "Well production performance by basin and type"
+    meta:
+      layer: "marts"
+      subdomain: "operations"
+    columns:
+      - name: basin_name
+        description: "Basin name"
+      - name: total_daily_production_boe
+        description: "Total daily production in BOE"
+
+  - name: equipment_maintenance_schedule
+    description: "Equipment maintenance tracking and scheduling"
+    meta:
+      layer: "marts"
+      subdomain: "operations"
+    columns:
+      - name: equipment_id
+        description: "Equipment identifier"
+      - name: maintenance_priority
+        description: "Maintenance priority level"
+
+  - name: safety_dashboard
+    description: "Safety incident metrics and ratings by rig"
+    meta:
+      layer: "marts"
+      subdomain: "operations"
+    columns:
+      - name: rig_id
+        description: "Rig identifier"
+      - name: safety_rating_ltm
+        description: "Safety rating for last 12 months"
+

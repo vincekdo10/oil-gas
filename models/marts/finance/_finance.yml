@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: fct_revenue_daily
+    description: "Daily revenue fact table - INCREMENTAL"
+    meta:
+      layer: "marts"
+      subdomain: "finance"
+      is_incremental: true
+    columns:
+      - name: date_day
+        description: "Revenue date"
+      - name: total_revenue_usd
+        description: "Total revenue for the day"
+
+  - name: revenue_by_service_line
+    description: "Revenue aggregated by service type"
+    meta:
+      layer: "marts"
+      subdomain: "finance"
+    columns:
+      - name: service_type
+        description: "Type of service"
+      - name: total_revenue_usd
+        description: "Total revenue"
+
+  - name: revenue_by_basin
+    description: "Revenue aggregated by basin"
+    meta:
+      layer: "marts"
+      subdomain: "finance"
+    columns:
+      - name: basin
+        description: "Basin name"
+      - name: total_revenue_usd
+        description: "Total revenue"
+
+  - name: customer_revenue_summary
+    description: "Customer lifetime value and revenue metrics"
+    meta:
+      layer: "marts"
+      subdomain: "finance"
+    columns:
+      - name: customer_id
+        description: "Customer identifier"
+      - name: total_revenue_usd
+        description: "Lifetime revenue"
+

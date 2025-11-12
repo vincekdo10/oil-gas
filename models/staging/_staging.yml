@@ -1,0 +1,222 @@
+version: 2
+
+models:
+  - name: stg_rigs
+    description: "Staging model for rig data with type casting and standardization"
+    meta:
+      layer: "staging"
+      owner: "Analytics Team"
+    columns:
+      - name: rig_id
+        description: "{{ doc('rig_id') }}"
+        tests:
+          - unique
+          - not_null
+      - name: rig_name
+        description: "Name of the drilling rig"
+      - name: rig_type
+        description: "Type of rig (Land or Offshore)"
+        tests:
+          - accepted_values:
+              values: ['Land', 'Offshore']
+      - name: basin
+        description: "Operating basin name"
+      - name: status
+        description: "Current operational status"
+        tests:
+          - accepted_values:
+              values: ['Active', 'Idle', 'Maintenance']
+      - name: day_rate_usd
+        description: "Daily rental rate in USD"
+        tests:
+          - not_null
+      - name: capacity_depth_ft
+        description: "Maximum drilling depth capacity in feet"
+      - name: crew_size
+        description: "Number of crew members"
+      - name: commissioning_date
+        description: "Date rig was commissioned"
+      - name: last_inspection_date
+        description: "Most recent safety inspection date"
+
+  - name: stg_wells
+    description: "Staging model for well data with cleaned and typed fields"
+    meta:
+      layer: "staging"
+      owner: "Analytics Team"
+    columns:
+      - name: well_id
+        description: "Unique well identifier"
+        tests:
+          - unique
+          - not_null
+      - name: basin_id
+        description: "Foreign key to basin"
+        tests:
+          - not_null
+      - name: customer_id
+        description: "Foreign key to customer"
+        tests:
+          - not_null
+      - name: well_name
+        description: "Well name"
+      - name: well_type
+        description: "Type of well (Horizontal or Vertical)"
+        tests:
+          - accepted_values:
+              values: ['Horizontal', 'Vertical']
+      - name: status
+        description: "Current well status"
+      - name: total_depth_ft
+        description: "Total vertical depth in feet"
+      - name: lateral_length_ft
+        description: "Horizontal lateral length in feet"
+      - name: daily_production_boe
+        description: "Daily production in barrels of oil equivalent"
+      - name: spud_date
+        description: "Date drilling began"
+      - name: completion_date
+        description: "Date well was completed"
+
+  - name: stg_service_orders
+    description: "Staging model for service orders with revenue and operational details"
+    meta:
+      layer: "staging"
+      owner: "Analytics Team"
+    columns:
+      - name: order_id
+        description: "Unique service order identifier"
+        tests:
+          - unique
+          - not_null
+      - name: rig_id
+        description: "Foreign key to rig"
+      - name: well_id
+        description: "Foreign key to well"
+      - name: customer_id
+        description: "Foreign key to customer"
+        tests:
+          - not_null
+      - name: service_type
+        description: "Type of service provided"
+        tests:
+          - accepted_values:
+              values: ['Drilling', 'Completion', 'Wireline', 'Cementing', 'Stimulation', 'Coiled Tubing', 'Directional Drilling', 'Pressure Pumping']
+      - name: status
+        description: "Service order status"
+      - name: revenue_usd
+        description: "Revenue in USD"
+        tests:
+          - not_null
+      - name: service_date
+        description: "Date service was performed"
+        tests:
+          - not_null
+
+  - name: stg_equipment
+    description: "Staging model for equipment with cost and maintenance tracking"
+    meta:
+      layer: "staging"
+      owner: "Analytics Team"
+    columns:
+      - name: equipment_id
+        description: "Unique equipment identifier"
+        tests:
+          - unique
+          - not_null
+      - name: assigned_rig_id
+        description: "Foreign key to assigned rig"
+      - name: equipment_name
+        description: "Equipment name"
+      - name: equipment_type
+        description: "Type of equipment"
+      - name: status
+        description: "Equipment status"
+      - name: purchase_cost_usd
+        description: "Purchase cost in USD"
+      - name: annual_maintenance_cost_usd
+        description: "Annual maintenance cost in USD"
+      - name: purchase_date
+        description: "Purchase date"
+      - name: last_maintenance_date
+        description: "Most recent maintenance date"
+
+  - name: stg_safety_incidents
+    description: "Staging model for safety incidents with severity tracking"
+    meta:
+      layer: "staging"
+      owner: "Analytics Team"
+    columns:
+      - name: incident_id
+        description: "Unique incident identifier"
+        tests:
+          - unique
+          - not_null
+      - name: rig_id
+        description: "Foreign key to rig where incident occurred"
+        tests:
+          - not_null
+      - name: incident_type
+        description: "Type of safety incident"
+      - name: severity
+        description: "Severity level"
+        tests:
+          - accepted_values:
+              values: ['Low', 'Medium', 'High', 'Critical']
+      - name: status
+        description: "Investigation status"
+      - name: incident_date
+        description: "Date of incident"
+        tests:
+          - not_null
+
+  - name: stg_customers
+    description: "Staging model for customer data with contract tier information"
+    meta:
+      layer: "staging"
+      owner: "Analytics Team"
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier"
+        tests:
+          - unique
+          - not_null
+      - name: customer_name
+        description: "Customer company name"
+        tests:
+          - not_null
+      - name: customer_type
+        description: "Customer type classification"
+      - name: contract_tier
+        description: "Contract tier level"
+        tests:
+          - accepted_values:
+              values: ['Platinum', 'Gold', 'Silver', 'Bronze']
+      - name: annual_revenue_usd
+        description: "Customer annual revenue in USD"
+
+  - name: stg_basins
+    description: "Staging model for oil & gas basin reference data"
+    meta:
+      layer: "staging"
+      owner: "Analytics Team"
+    columns:
+      - name: basin_id
+        description: "Unique basin identifier"
+        tests:
+          - unique
+          - not_null
+      - name: basin_name
+        description: "Basin name"
+        tests:
+          - not_null
+      - name: region
+        description: "Geographic region"
+      - name: state
+        description: "State or offshore designation"
+      - name: basin_type
+        description: "Type of basin"
+        tests:
+          - accepted_values:
+              values: ['Oil', 'Gas', 'Oil & Gas']
+

@@ -1,17 +1,8 @@
-
-# Name your project! Project names should contain only lowercase characters
-# and underscores. A good package name should reflect your organization's
-# name or the intended use of these models
-name: 'my_new_project'
-version: '1.0.0'
+name: 'oilgas_demo'
 config-version: 2
 
-# This setting configures which "profile" dbt uses for this project.
-profile: 'default'
+profile: 'oilgas_demo'
 
-# These configurations specify where dbt should look for different types of files.
-# The `model-paths` config, for example, states that models in this project can be
-# found in the "models/" directory. You probably won't need to change these!
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
@@ -19,24 +10,85 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
-target-path: "target"  # directory which will store compiled SQL files
-clean-targets:         # directories to be removed by `dbt clean`
+clean-targets:
   - "target"
   - "dbt_packages"
-
-
-# Configuring models
-# Full documentation: https://docs.getdbt.com/docs/configuring-models
-
-# In dbt, the default materialization for a model is a view. This means, when you run 
-# dbt run or dbt build, all of your models will be built as a view in your data platform. 
-# The configuration below will override this setting for models in the example folder to 
-# instead be materialized as tables. Any models you add to the root of the models folder will 
-# continue to be built as views. These settings can be overridden in the individual model files
-# using the `{{ config(...) }}` macro.
+  - "logs"
 
 models:
-  my_new_project:
-    # Applies to all files under models/example/
-    example:
+  oilgas_demo:
+    +materialized: view
+    +meta:
+      owner: "Analytics Team"
+      project: "Oil & Gas Services dbt Fusion Demo"
+      
+    staging:
+      +materialized: view
+      +tags: ["staging"]
+      +meta:
+        layer: "staging"
+        description: "Raw data transformed with light cleaning and type casting"
+        
+    intermediate:
+      +materialized: view
+      +tags: ["intermediate"]
+      +meta:
+        layer: "intermediate"
+        description: "Purpose-built transformations for downstream marts"
+        
+    marts:
       +materialized: table
+      +tags: ["marts"]
+      +meta:
+        layer: "marts"
+        description: "Business-facing analytics tables"
+        
+      core:
+        +tags: ["core", "marts"]
+        +meta:
+          subdomain: "core"
+          description: "Core business entities and fact tables"
+          
+      finance:
+        +tags: ["finance", "marts"]
+        +meta:
+          subdomain: "finance"
+          description: "Financial reporting and revenue analytics"
+          
+      operations:
+        +tags: ["operations", "marts"]
+        +meta:
+          subdomain: "operations"
+          description: "Operational metrics and dashboards"
+
+seeds:
+  oilgas_demo:
+    +schema: raw
+    +tags: ["seeds"]
+    +meta:
+      source_system: "demo_data"
+
+snapshots:
+  oilgas_demo:
+    +target_schema: snapshots
+    +strategy: timestamp
+    +updated_at: updated_at
+    +tags: ["snapshots"]
+
+vars:
+  # Fusion-compatible variable definitions
+  start_date: '2023-01-01'
+  current_year: 2024
+  
+  # Custom schema suffixes
+  schema_staging: 'staging'
+  schema_intermediate: 'intermediate'
+  schema_marts: 'analytics'
+  
+  # Business logic variables
+  active_rig_threshold_days: 30
+  safety_incident_severity_levels: ['Low', 'Medium', 'High', 'Critical']
+
+# Fusion-ready: No Python models, no deprecated syntax
+# All arbitrary configs moved to meta dictionary
+# Using modern dbt syntax throughout

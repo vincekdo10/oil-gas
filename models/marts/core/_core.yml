@@ -1,0 +1,94 @@
+version: 2
+
+models:
+  - name: dim_rigs
+    description: "Dimension table for drilling rigs with utilization metrics"
+    meta:
+      layer: "marts"
+      subdomain: "core"
+    columns:
+      - name: rig_id
+        description: "Unique rig identifier"
+        tests:
+          - unique
+          - not_null
+      - name: utilization_pct_ltm
+        description: "Utilization percentage over last 12 months"
+
+  - name: dim_wells
+    description: "Dimension table for wells with production metrics"
+    meta:
+      layer: "marts"
+      subdomain: "core"
+    columns:
+      - name: well_id
+        description: "Unique well identifier"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_customers
+    description: "Dimension table for customers with revenue history"
+    meta:
+      layer: "marts"
+      subdomain: "core"
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_basins
+    description: "Dimension table for oil & gas basins"
+    meta:
+      layer: "marts"
+      subdomain: "core"
+    columns:
+      - name: basin_id
+        description: "Unique basin identifier"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_equipment
+    description: "Dimension table for equipment with depreciation metrics"
+    meta:
+      layer: "marts"
+      subdomain: "core"
+    columns:
+      - name: equipment_id
+        description: "Unique equipment identifier"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_date
+    description: "Date dimension table for time-based analysis"
+    meta:
+      layer: "marts"
+      subdomain: "core"
+    columns:
+      - name: date_day
+        description: "Calendar date"
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_service_operations
+    description: "Fact table for all service operations - INCREMENTAL"
+    meta:
+      layer: "marts"
+      subdomain: "core"
+      is_incremental: true
+    columns:
+      - name: order_id
+        description: "Unique service order identifier"
+        tests:
+          - unique
+          - not_null
+      - name: revenue_usd
+        description: "Service revenue in USD"
+        tests:
+          - not_null
+

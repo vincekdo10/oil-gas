@@ -1,0 +1,84 @@
+version: 2
+
+models:
+  - name: int_rig_utilization_daily
+    description: "Daily rig utilization metrics with revenue potential"
+    meta:
+      layer: "intermediate"
+      owner: "Analytics Team"
+    columns:
+      - name: rig_id
+        description: "Rig identifier"
+      - name: date_day
+        description: "Calendar date"
+      - name: is_active
+        description: "Binary flag for active status (1=active, 0=inactive)"
+      - name: daily_revenue_potential
+        description: "Potential daily revenue if rig is active"
+
+  - name: int_well_performance
+    description: "Well production and efficiency metrics"
+    meta:
+      layer: "intermediate"
+      owner: "Analytics Team"
+    columns:
+      - name: well_id
+        description: "Well identifier"
+      - name: drilling_duration_days
+        description: "Number of days from spud to completion"
+      - name: production_per_1000ft_lateral
+        description: "Daily BOE production per 1000 ft of lateral"
+      - name: reserves_per_1000ft_lateral
+        description: "Estimated reserves per 1000 ft of lateral"
+
+  - name: int_service_revenue_daily
+    description: "Daily service revenue aggregated by customer and service type"
+    meta:
+      layer: "intermediate"
+      owner: "Analytics Team"
+    columns:
+      - name: date_day
+        description: "Calendar date"
+      - name: customer_id
+        description: "Customer identifier"
+      - name: service_type
+        description: "Type of service"
+      - name: total_revenue_usd
+        description: "Total revenue for the day"
+      - name: order_count
+        description: "Number of orders"
+
+  - name: int_safety_metrics_monthly
+    description: "Monthly safety incident metrics by rig"
+    meta:
+      layer: "intermediate"
+      owner: "Analytics Team"
+    columns:
+      - name: incident_month
+        description: "Month of incident"
+      - name: rig_id
+        description: "Rig identifier"
+      - name: total_incidents
+        description: "Total number of incidents"
+      - name: critical_severity_count
+        description: "Number of critical incidents"
+      - name: avg_resolution_days
+        description: "Average days to resolve incidents"
+
+  - name: int_equipment_utilization
+    description: "Equipment utilization, depreciation, and maintenance metrics"
+    meta:
+      layer: "intermediate"
+      owner: "Analytics Team"
+    columns:
+      - name: equipment_id
+        description: "Equipment identifier"
+      - name: equipment_age_years
+        description: "Age of equipment in years"
+      - name: depreciation_pct
+        description: "Percentage depreciated"
+      - name: current_book_value_usd
+        description: "Current book value"
+      - name: utilization_factor
+        description: "Utilization factor (0.0 to 1.0)"
+

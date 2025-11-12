@@ -1,0 +1,17 @@
+basin_id,basin_name,region,state,basin_type,total_area_sq_miles,active_wells,proven_reserves_boe,discovery_year,primary_formation
+BASIN001,Permian,West Texas,TX,Oil,75000,180000,35000000000,1920,Delaware-Midland
+BASIN002,Eagle Ford,South Texas,TX,Oil & Gas,26000,20000,8500000000,2008,Eagle Ford Shale
+BASIN003,Bakken,Northern Plains,ND,Oil,20000,16000,7800000000,1951,Bakken Formation
+BASIN004,DJ Basin,Rocky Mountain,CO,Oil & Gas,10000,12000,3200000000,1970,Niobrara-Codell
+BASIN005,Haynesville,East Texas/Louisiana,TX/LA,Gas,15000,4500,75000000000,1905,Haynesville Shale
+BASIN006,Marcellus,Appalachian,PA/WV,Gas,95000,10000,141000000000,2004,Marcellus Shale
+BASIN007,Utica,Appalachian,OH/PA,Gas,42000,2800,38000000000,2011,Utica Shale
+BASIN008,GOM,Gulf Coast,Offshore,Oil & Gas,600000,2800,48000000000,1947,Multiple Formations
+BASIN009,Anadarko,Mid-Continent,OK,Oil & Gas,50000,14500,4500000000,1897,Woodford-Mississippian
+BASIN010,Niobrara,Rocky Mountain,CO/WY,Oil,19000,8200,2100000000,1862,Niobrara Formation
+BASIN011,SCOOP,Mid-Continent,OK,Oil & Gas,5500,3200,1800000000,2011,SCOOP Woodford
+BASIN012,STACK,Mid-Continent,OK,Oil & Gas,8000,4100,2400000000,2014,Meramec-Osage
+BASIN013,Powder River,Rocky Mountain,WY,Oil & Gas,23000,2500,1200000000,1887,Turner-Parkman
+BASIN014,Williston,Northern Plains,ND/MT,Oil,125000,18000,11500000000,1951,Bakken-Three Forks
+BASIN015,Bone Spring,West Texas,TX,Oil,8500,5800,4200000000,2016,Bone Spring Formation
+

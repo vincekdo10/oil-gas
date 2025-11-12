@@ -1,0 +1,78 @@
+semantic_models:
+  - name: revenue
+    description: "Service revenue semantic model for AI chatbot queries"
+    model: ref('fact_service_operations')
+    defaults:
+      agg_time_dimension: service_date
+    
+    entities:
+      - name: order_id
+        type: primary
+        expr: order_id
+      - name: customer_id
+        type: foreign
+        expr: customer_id
+      - name: rig_id
+        type: foreign
+        expr: rig_id
+      - name: well_id
+        type: foreign
+        expr: well_id
+    
+    dimensions:
+      - name: service_date
+        type: time
+        type_params:
+          time_granularity: day
+        expr: service_date
+      
+      - name: service_type
+        type: categorical
+        expr: service_type
+      
+      - name: customer_name
+        type: categorical
+        expr: customer_name
+      
+      - name: contract_tier
+        type: categorical
+        expr: contract_tier
+      
+      - name: basin
+        type: categorical
+        expr: coalesce(well_basin, rig_basin)
+      
+      - name: rig_type
+        type: categorical
+        expr: rig_type
+      
+      - name: status
+        type: categorical
+        expr: status
+    
+    measures:
+      - name: total_revenue
+        description: "Total service revenue"
+        agg: sum
+        expr: revenue_usd
+      
+      - name: avg_revenue_per_order
+        description: "Average revenue per order"
+        agg: average
+        expr: revenue_usd
+      
+      - name: order_count
+        description: "Number of service orders"
+        agg: count
+        expr: order_id
+      
+      - name: total_service_days
+        description: "Total service days"
+        agg: sum
+        expr: duration_days
+      
+      - name: avg_crew_size
+        description: "Average crew size"
+        agg: average
+        expr: crew_size
+

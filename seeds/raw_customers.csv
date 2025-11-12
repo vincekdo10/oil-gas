@@ -1,0 +1,52 @@
+customer_id,customer_name,customer_type,headquarters_city,headquarters_state,annual_revenue_millions,employee_count,years_as_customer,contract_tier,primary_contact_email
+CUST001,ExxonMobil Production,Major Integrated,Houston,TX,413680,62000,15,Platinum,operations@exxonmobil.com
+CUST002,Chevron USA,Major Integrated,San Ramon,CA,246252,42600,18,Platinum,procurement@chevron.com
+CUST003,ConocoPhillips,Major Integrated,Houston,TX,68274,9100,12,Platinum,oilgas@conocophillips.com
+CUST004,EOG Resources,Independent E&P,Houston,TX,24582,2950,8,Gold,contracts@eogresources.com
+CUST005,Pioneer Natural Resources,Independent E&P,Irving,TX,18256,3400,10,Gold,services@pioneernrc.com
+CUST006,Devon Energy,Independent E&P,Oklahoma City,OK,12214,1800,11,Gold,drilling@devonenergy.com
+CUST007,Occidental Petroleum,Major Integrated,Houston,TX,26495,11700,14,Platinum,supply@oxy.com
+CUST008,Hess Corporation,Independent E&P,New York,NY,11573,1430,9,Gold,operations@hess.com
+CUST009,Marathon Oil,Independent E&P,Houston,TX,5856,1430,13,Gold,procurement@marathonoil.com
+CUST010,Continental Resources,Independent E&P,Oklahoma City,OK,6038,1100,7,Gold,contracts@contres.com
+CUST011,Apache Corporation,Independent E&P,Houston,TX,7512,2800,16,Gold,services@apachecorp.com
+CUST012,Diamondback Energy,Independent E&P,Midland,TX,7864,1200,5,Gold,drilling@diamondbackenergy.com
+CUST013,Chesapeake Energy,Independent E&P,Oklahoma City,OK,5517,2300,12,Silver,operations@chk.com
+CUST014,Range Resources,Independent E&P,Fort Worth,TX,3284,850,10,Silver,supply@rangeresources.com
+CUST015,Cabot Oil & Gas,Independent E&P,Houston,TX,2214,650,9,Silver,procurement@cabotog.com
+CUST016,Whiting Petroleum,Independent E&P,Denver,CO,2138,420,8,Silver,contracts@whiting.com
+CUST017,SM Energy,Independent E&P,Denver,CO,2564,710,11,Silver,services@smenergy.com
+CUST018,PDC Energy,Independent E&P,Denver,CO,1897,460,6,Silver,drilling@pdce.com
+CUST019,Ovintiv,Independent E&P,Denver,CO,7686,2100,14,Gold,operations@ovintiv.com
+CUST020,Matador Resources,Independent E&P,Dallas,TX,2456,780,7,Silver,supply@matadorresources.com
+CUST021,Permian Resources,Independent E&P,Midland,TX,3124,950,4,Silver,procurement@permianresources.com
+CUST022,Callon Petroleum,Independent E&P,Houston,TX,1876,320,8,Silver,contracts@callon.com
+CUST023,Laredo Petroleum,Independent E&P,Tulsa,OK,1523,280,9,Bronze,services@laredopetro.com
+CUST024,Centennial Resource Development,Independent E&P,Denver,CO,1246,240,5,Bronze,drilling@cdevinc.com
+CUST025,Endeavor Energy Resources,Independent E&P,Midland,TX,4850,850,6,Gold,operations@endeavorenergy.com
+CUST026,CrownQuest Operating,Independent E&P,Midland,TX,2890,520,8,Silver,supply@crownquest.com
+CUST027,Mewbourne Oil Company,Independent E&P,Tyler,TX,1950,380,12,Silver,procurement@mewbourne.com
+CUST028,Cimarex Energy,Independent E&P,Denver,CO,2587,650,10,Silver,contracts@cimarex.com
+CUST029,QEP Resources,Independent E&P,Denver,CO,1428,420,11,Bronze,services@qepres.com
+CUST030,Bonanza Creek Energy,Independent E&P,Denver,CO,845,180,7,Bronze,drilling@bcei.com
+CUST031,Extraction Oil & Gas,Independent E&P,Denver,CO,956,210,6,Bronze,operations@extractionog.com
+CUST032,SandRidge Energy,Independent E&P,Oklahoma City,OK,748,290,9,Bronze,supply@sandridgeenergy.com
+CUST033,W&T Offshore,Independent E&P,Houston,TX,1124,380,14,Bronze,procurement@wtoffshore.com
+CUST034,Talos Energy,Independent E&P,Houston,TX,2186,420,5,Silver,contracts@talosenergy.com
+CUST035,Murphy Oil,Independent E&P,Houston,TX,2964,850,16,Silver,services@murphyoilcorp.com
+CUST036,Magnolia Oil & Gas,Independent E&P,Houston,TX,1846,280,4,Bronze,drilling@magnoliaoilgas.com
+CUST037,HighPoint Resources,Independent E&P,Denver,CO,678,150,7,Bronze,operations@hpres.com
+CUST038,Gulfport Energy,Independent E&P,Oklahoma City,OK,1257,340,10,Bronze,supply@gulfportenergy.com
+CUST039,Antero Resources,Independent E&P,Denver,CO,4856,980,11,Gold,procurement@anteroresources.com
+CUST040,EQT Corporation,Independent E&P,Pittsburgh,PA,5624,1450,13,Gold,contracts@eqt.com
+CUST041,Southwestern Energy,Independent E&P,Houston,TX,7256,2100,15,Gold,services@swn.com
+CUST042,CNX Resources,Independent E&P,Pittsburgh,PA,1987,780,12,Silver,drilling@cnx.com
+CUST043,Seneca Resources,Independent E&P,Pittsburgh,PA,1254,420,9,Bronze,operations@nationalfuelgas.com
+CUST044,Carrizo Oil & Gas,Independent E&P,Houston,TX,987,240,8,Bronze,supply@crzo.com
+CUST045,Jones Energy,Independent E&P,Austin,TX,654,180,6,Bronze,procurement@jonesenergy.com
+CUST046,Chaparral Energy,Independent E&P,Oklahoma City,OK,528,150,7,Bronze,contracts@chaparralenergy.com
+CUST047,Penn Virginia,Independent E&P,Houston,TX,742,170,9,Bronze,services@pennvirginia.com
+CUST048,Eclipse Resources,Independent E&P,State College,PA,486,130,5,Bronze,drilling@eclipseresources.com
+CUST049,REX Energy,Independent E&P,State College,PA,325,90,8,Bronze,operations@rexenergy.com
+CUST050,Rice Energy,Independent E&P,Canonsburg,PA,892,210,6,Bronze,supply@riceenergy.com
+

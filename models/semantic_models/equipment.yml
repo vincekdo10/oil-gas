@@ -1,0 +1,69 @@
+semantic_models:
+  - name: equipment
+    description: "Equipment utilization and maintenance semantic model"
+    model: ref('dim_equipment')
+    
+    entities:
+      - name: equipment_id
+        type: primary
+        expr: equipment_id
+      - name: rig_id
+        type: foreign
+        expr: assigned_rig_id
+    
+    dimensions:
+      - name: equipment_name
+        type: categorical
+        expr: equipment_name
+      
+      - name: equipment_type
+        type: categorical
+        expr: equipment_type
+      
+      - name: status
+        type: categorical
+        expr: status
+      
+      - name: basin
+        type: categorical
+        expr: basin
+      
+      - name: equipment_age_category
+        type: categorical
+        expr: equipment_age_category
+      
+      - name: maintenance_due_flag
+        type: categorical
+        expr: maintenance_due_flag
+    
+    measures:
+      - name: total_equipment_value
+        description: "Total current book value of equipment"
+        agg: sum
+        expr: current_book_value_usd
+      
+      - name: total_purchase_cost
+        description: "Total purchase cost of equipment"
+        agg: sum
+        expr: purchase_cost_usd
+      
+      - name: total_annual_maintenance_cost
+        description: "Total annual maintenance costs"
+        agg: sum
+        expr: annual_maintenance_cost_usd
+      
+      - name: avg_utilization_factor
+        description: "Average equipment utilization factor"
+        agg: average
+        expr: utilization_factor
+      
+      - name: avg_equipment_age
+        description: "Average equipment age in years"
+        agg: average
+        expr: equipment_age_years
+      
+      - name: equipment_count
+        description: "Number of equipment assets"
+        agg: count
+        expr: equipment_id
+

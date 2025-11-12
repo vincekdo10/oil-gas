@@ -1,0 +1,82 @@
+metrics:
+  # Revenue Metrics
+  - name: total_revenue
+    description: "Total service revenue across all operations"
+    type: simple
+    label: "Total Revenue"
+    type_params:
+      measure: total_revenue
+    
+  - name: revenue_growth_mom
+    description: "Month-over-month revenue growth rate"
+    type: derived
+    label: "Revenue Growth (MoM)"
+    type_params:
+      expr: (current_period_revenue - prior_period_revenue) / prior_period_revenue * 100
+      metrics:
+        - name: total_revenue
+          alias: current_period_revenue
+        - name: total_revenue
+          alias: prior_period_revenue
+          offset_window: 1 month
+  
+  # Operational Metrics
+  - name: rig_utilization_rate
+    description: "Average rig utilization percentage"
+    type: simple
+    label: "Rig Utilization Rate"
+    type_params:
+      measure: avg_utilization_pct_ltm
+  
+  - name: avg_day_rate
+    description: "Average daily rig rate"
+    type: simple
+    label: "Average Day Rate"
+    type_params:
+      measure: avg_day_rate
+  
+  # Safety Metrics
+  - name: safety_incident_rate
+    description: "Safety incident rate per 200,000 hours"
+    type: simple
+    label: "Safety Incident Rate"
+    type_params:
+      measure: avg_incident_rate_ltm
+  
+  - name: critical_incident_count
+    description: "Number of critical safety incidents"
+    type: simple
+    label: "Critical Incidents"
+    type_params:
+      measure: critical_incidents_ltm
+  
+  # Equipment Metrics
+  - name: equipment_utilization
+    description: "Average equipment utilization factor"
+    type: simple
+    label: "Equipment Utilization"
+    type_params:
+      measure: avg_utilization_factor
+  
+  - name: total_equipment_value
+    description: "Total current book value of all equipment"
+    type: simple
+    label: "Total Equipment Value"
+    type_params:
+      measure: total_equipment_value
+  
+  # Customer Metrics
+  - name: avg_revenue_per_order
+    description: "Average revenue per service order"
+    type: simple
+    label: "Avg Revenue per Order"
+    type_params:
+      measure: avg_revenue_per_order
+  
+  - name: order_count
+    description: "Total number of service orders"
+    type: simple
+    label: "Order Count"
+    type_params:
+      measure: order_count
+
