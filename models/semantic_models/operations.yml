@@ -6,28 +6,22 @@ semantic_models:
     entities:
       - name: rig_id
         type: primary
-        expr: rig_id
     
     dimensions:
       - name: rig_name
         type: categorical
-        expr: rig_name
       
       - name: basin
         type: categorical
-        expr: basin
       
       - name: rig_type
         type: categorical
-        expr: rig_type
       
       - name: status
         type: categorical
-        expr: status
       
       - name: utilization_category_ltm
         type: categorical
-        expr: utilization_category_ltm
     
     measures:
       - name: avg_utilization_pct_ltm
@@ -52,6 +46,4 @@ semantic_models:
       
       - name: rig_count
         description: "Number of rigs"
-        agg: count
-        expr: rig_id
-
+        agg: count_distinct

@@ -6,24 +6,19 @@ semantic_models:
     entities:
       - name: rig_id
         type: primary
-        expr: rig_id
     
     dimensions:
       - name: rig_name
         type: categorical
-        expr: rig_name
       
       - name: basin
         type: categorical
-        expr: basin
       
       - name: rig_type
         type: categorical
-        expr: rig_type
       
       - name: safety_rating_ltm
         type: categorical
-        expr: safety_rating_ltm
     
     measures:
       - name: total_incidents_ytd
@@ -53,6 +48,4 @@ semantic_models:
       
       - name: rigs_with_incidents
         description: "Number of rigs with incidents"
-        agg: count
-        expr: rig_id
-
+        agg: count_distinct

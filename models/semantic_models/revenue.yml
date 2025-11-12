@@ -8,35 +8,27 @@ semantic_models:
     entities:
       - name: order_id
         type: primary
-        expr: order_id
       - name: customer_id
         type: foreign
-        expr: customer_id
       - name: rig_id
         type: foreign
-        expr: rig_id
       - name: well_id
         type: foreign
-        expr: well_id
     
     dimensions:
       - name: service_date
         type: time
         type_params:
           time_granularity: day
-        expr: service_date
       
       - name: service_type
         type: categorical
-        expr: service_type
       
       - name: customer_name
         type: categorical
-        expr: customer_name
       
       - name: contract_tier
         type: categorical
-        expr: contract_tier
       
       - name: basin
         type: categorical
@@ -44,11 +36,9 @@ semantic_models:
       
       - name: rig_type
         type: categorical
-        expr: rig_type
       
       - name: status
         type: categorical
-        expr: status
     
     measures:
       - name: total_revenue
@@ -63,8 +53,7 @@ semantic_models:
       
       - name: order_count
         description: "Number of service orders"
-        agg: count
-        expr: order_id
+        agg: count_distinct
       
       - name: total_service_days
         description: "Total service days"
@@ -75,4 +64,3 @@ semantic_models:
         description: "Average crew size"
         agg: average
         expr: crew_size
-

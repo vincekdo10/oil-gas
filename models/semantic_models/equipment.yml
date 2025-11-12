@@ -6,7 +6,6 @@ semantic_models:
     entities:
       - name: equipment_id
         type: primary
-        expr: equipment_id
       - name: rig_id
         type: foreign
         expr: assigned_rig_id
@@ -14,27 +13,21 @@ semantic_models:
     dimensions:
       - name: equipment_name
         type: categorical
-        expr: equipment_name
       
       - name: equipment_type
         type: categorical
-        expr: equipment_type
       
       - name: status
         type: categorical
-        expr: status
       
       - name: basin
         type: categorical
-        expr: basin
       
       - name: equipment_age_category
         type: categorical
-        expr: equipment_age_category
       
       - name: maintenance_due_flag
         type: categorical
-        expr: maintenance_due_flag
     
     measures:
       - name: total_equipment_value
@@ -64,6 +57,4 @@ semantic_models:
       
       - name: equipment_count
         description: "Number of equipment assets"
-        agg: count
-        expr: equipment_id
-
+        agg: count_distinct
