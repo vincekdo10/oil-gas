@@ -6,6 +6,9 @@ semantic_models:
       agg_time_dimension: incident_month
     
     entities:
+      - name: incident_month_rig
+        type: primary
+        expr: concat(incident_month, '-', rig_id)
       - name: rig_id
         type: foreign
     
@@ -45,5 +48,5 @@ semantic_models:
       
       - name: incident_count
         description: "Count of incident records"
-        agg: count_distinct
-        expr: rig_id
+        agg: count
+        expr: 1

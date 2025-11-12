@@ -1,5 +1,5 @@
 metrics:
-  # Revenue Metrics
+  # Revenue Metrics (from revenue semantic model)
   - name: total_revenue
     description: "Total service revenue across all operations"
     type: simple
@@ -27,7 +27,7 @@ metrics:
         name: order_count
         join_to_timespine: true
   
-  # Operational Metrics
+  # Operational Metrics (from operations semantic model)
   - name: active_rig_days
     description: "Total active rig days"
     type: simple
@@ -46,7 +46,16 @@ metrics:
         name: avg_day_rate
         join_to_timespine: true
   
-  # Safety Metrics
+  - name: total_rig_days
+    description: "Total rig operating days"
+    type: simple
+    label: "Total Rig Days"
+    type_params:
+      measure:
+        name: total_rig_days
+        join_to_timespine: true
+  
+  # Safety Metrics (from safety semantic model)
   - name: total_safety_incidents
     description: "Total safety incidents"
     type: simple
@@ -63,4 +72,23 @@ metrics:
     type_params:
       measure:
         name: critical_incidents
+        join_to_timespine: true
+  
+  # Equipment Metrics (from equipment semantic model)
+  - name: total_equipment_value
+    description: "Total current book value of all equipment"
+    type: simple
+    label: "Total Equipment Value"
+    type_params:
+      measure:
+        name: total_equipment_value
+        join_to_timespine: true
+  
+  - name: avg_equipment_utilization
+    description: "Average equipment utilization factor"
+    type: simple
+    label: "Avg Equipment Utilization"
+    type_params:
+      measure:
+        name: avg_utilization_factor
         join_to_timespine: true

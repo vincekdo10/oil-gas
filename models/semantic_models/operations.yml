@@ -6,6 +6,9 @@ semantic_models:
       agg_time_dimension: date_day
     
     entities:
+      - name: rig_day
+        type: primary
+        expr: concat(rig_id, '-', date_day)
       - name: rig_id
         type: foreign
     
@@ -36,6 +39,7 @@ semantic_models:
       - name: total_rig_days
         description: "Total rig days"
         agg: count
+        expr: 1
       
       - name: avg_day_rate
         description: "Average day rate in USD"
