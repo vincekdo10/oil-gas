@@ -5,7 +5,7 @@ exposures:
     description: "Executive dashboard showing revenue trends, top customers, and service line performance"
     type: dashboard
     maturity: high
-    url: https://app.powerbi.com/oilgas/executive-revenue
+    url: https://app.snowflake.com/cmvgrnf/zna84829/#/streamlit-apps/OILGAS_DEMO.PUBLIC.FQ6TU4ZGQ2M8_PW9
     owner:
       name: Analytics Team
       email: analytics@oilgas-services.com
