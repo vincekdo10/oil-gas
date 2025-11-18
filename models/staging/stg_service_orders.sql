@@ -33,7 +33,7 @@ renamed as (
         -- Dates
         service_date::date as service_date,
         case 
-            when completion_date is not null and completion_date != '' 
+            when nullif(trim(completion_date), '') is not null 
             then completion_date::date 
             else null 
         end as completion_date,

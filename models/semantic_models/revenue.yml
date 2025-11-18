@@ -54,6 +54,7 @@ semantic_models:
       - name: order_count
         description: "Number of service orders"
         agg: count_distinct
+        expr: order_id
       
       - name: total_service_days
         description: "Total service days"

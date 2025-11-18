@@ -31,7 +31,7 @@ renamed as (
         -- Dates
         incident_date::date as incident_date,
         case 
-            when resolution_date is not null and resolution_date != '' 
+            when nullif(trim(resolution_date), '') is not null 
             then resolution_date::date 
             else null 
         end as resolution_date,

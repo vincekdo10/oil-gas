@@ -1,301 +1,301 @@
 incident_id,rig_id,incident_date,incident_type,severity,days_away_from_work,restricted_work_days,status,resolution_date,description,corrective_action
-INC0001,RIG011,2023-11-02,Equipment Failure,Critical,5,0,Resolved,,Incident description 1,Action 1
-INC0002,RIG171,2022-01-20,Caught Between,Critical,1,3,Under Investigation,2022-03-01,Incident description 2,Action 2
-INC0003,RIG116,2022-05-30,Equipment Failure,Low,25,0,Resolved,,Incident description 3,Action 3
-INC0004,RIG105,2023-11-17,Lifting Operation,Low,27,3,Resolved,,Incident description 4,Action 4
-INC0005,RIG077,2022-11-24,Struck By,Low,5,6,Resolved,2022-12-11,Incident description 5,Action 5
-INC0006,RIG074,2022-11-24,Struck By,Low,7,5,Resolved,,Incident description 6,Action 6
-INC0007,RIG086,2023-06-14,Caught Between,High,8,1,Under Investigation,2023-07-15,Incident description 7,Action 7
-INC0008,RIG170,2023-01-01,Equipment Failure,Medium,30,6,Under Investigation,2023-01-04,Incident description 8,Action 8
-INC0009,RIG020,2022-07-28,Fire/Explosion,Medium,20,0,Open,2022-08-02,Incident description 9,Action 9
-INC0010,RIG114,2023-01-20,Lifting Operation,Medium,28,0,Open,2023-02-13,Incident description 10,Action 10
-INC0011,RIG051,2022-01-06,Fire/Explosion,Low,13,3,Resolved,,Incident description 11,Action 11
-INC0012,RIG177,2022-06-01,Caught Between,Medium,25,3,Resolved,2022-07-08,Incident description 12,Action 12
-INC0013,RIG018,2023-05-17,Falling Object,Low,24,2,Resolved,2023-06-23,Incident description 13,Action 13
-INC0014,RIG130,2023-08-01,Lifting Operation,Medium,14,6,Resolved,,Incident description 14,Action 14
-INC0015,RIG057,2023-10-13,Equipment Failure,Medium,2,3,Under Investigation,,Incident description 15,Action 15
-INC0016,RIG177,2022-12-17,Fire/Explosion,Critical,12,6,Under Investigation,2023-01-13,Incident description 16,Action 16
-INC0017,RIG062,2023-04-05,Slip/Trip/Fall,High,1,6,Open,2023-04-20,Incident description 17,Action 17
-INC0018,RIG046,2022-11-12,Equipment Failure,Low,28,2,Open,,Incident description 18,Action 18
-INC0019,RIG054,2023-02-12,Struck By,Low,2,7,Resolved,,Incident description 19,Action 19
-INC0020,RIG124,2022-05-12,Equipment Failure,Low,12,1,Resolved,,Incident description 20,Action 20
-INC0021,RIG177,2022-06-21,Vehicle Accident,Low,11,3,Resolved,2022-07-22,Incident description 21,Action 21
-INC0022,RIG179,2022-01-13,Vehicle Accident,Low,1,2,Under Investigation,2022-01-23,Incident description 22,Action 22
-INC0023,RIG018,2022-04-06,Lifting Operation,Critical,7,7,Resolved,2022-04-11,Incident description 23,Action 23
-INC0024,RIG199,2022-12-08,Equipment Failure,Medium,20,4,Resolved,2023-01-22,Incident description 24,Action 24
-INC0025,RIG120,2023-09-19,Lifting Operation,Low,5,2,Resolved,2023-10-16,Incident description 25,Action 25
-INC0026,RIG068,2023-12-19,Chemical Exposure,High,20,6,Resolved,,Incident description 26,Action 26
-INC0027,RIG015,2023-01-25,Struck By,Low,11,0,Resolved,2023-01-27,Incident description 27,Action 27
-INC0028,RIG071,2022-11-05,Caught Between,Low,23,4,Open,2022-11-19,Incident description 28,Action 28
-INC0029,RIG196,2023-11-27,Lifting Operation,Low,23,4,Resolved,2023-12-11,Incident description 29,Action 29
-INC0030,RIG069,2022-11-23,Lifting Operation,High,16,5,Resolved,,Incident description 30,Action 30
-INC0031,RIG186,2023-05-15,Struck By,Low,1,7,Resolved,2023-06-10,Incident description 31,Action 31
-INC0032,RIG145,2022-07-27,Fire/Explosion,Low,7,6,Open,2022-08-02,Incident description 32,Action 32
-INC0033,RIG003,2022-08-19,Slip/Trip/Fall,High,16,7,Open,2022-08-31,Incident description 33,Action 33
-INC0034,RIG133,2022-04-07,Equipment Failure,Medium,17,4,Under Investigation,2022-04-09,Incident description 34,Action 34
-INC0035,RIG084,2023-08-02,Falling Object,Low,21,3,Under Investigation,,Incident description 35,Action 35
-INC0036,RIG026,2022-09-04,Equipment Failure,Critical,0,1,Open,,Incident description 36,Action 36
-INC0037,RIG013,2022-03-16,Vehicle Accident,Low,6,1,Resolved,2022-04-07,Incident description 37,Action 37
-INC0038,RIG039,2022-12-31,Chemical Exposure,Medium,4,3,Under Investigation,,Incident description 38,Action 38
-INC0039,RIG190,2022-05-21,Falling Object,Low,12,6,Resolved,,Incident description 39,Action 39
-INC0040,RIG070,2023-01-27,Falling Object,Low,3,3,Under Investigation,2023-03-11,Incident description 40,Action 40
-INC0041,RIG140,2023-09-08,Equipment Failure,Low,29,0,Open,2023-09-20,Incident description 41,Action 41
-INC0042,RIG133,2023-06-20,Fire/Explosion,Low,17,7,Resolved,,Incident description 42,Action 42
-INC0043,RIG050,2023-04-29,Vehicle Accident,Low,12,4,Resolved,,Incident description 43,Action 43
-INC0044,RIG043,2022-08-24,Struck By,Low,6,4,Open,2022-09-27,Incident description 44,Action 44
-INC0045,RIG142,2023-04-17,Slip/Trip/Fall,High,18,5,Resolved,2023-05-28,Incident description 45,Action 45
-INC0046,RIG047,2023-09-18,Vehicle Accident,Medium,3,1,Open,2023-10-27,Incident description 46,Action 46
-INC0047,RIG183,2022-10-08,Fire/Explosion,Medium,30,3,Resolved,2022-11-03,Incident description 47,Action 47
-INC0048,RIG094,2023-10-11,Vehicle Accident,High,13,3,Resolved,2023-11-12,Incident description 48,Action 48
-INC0049,RIG097,2023-02-23,Fire/Explosion,Low,12,6,Under Investigation,,Incident description 49,Action 49
-INC0050,RIG106,2023-03-22,Lifting Operation,High,1,2,Resolved,,Incident description 50,Action 50
-INC0051,RIG115,2022-10-09,Slip/Trip/Fall,High,18,7,Resolved,2022-10-23,Incident description 51,Action 51
-INC0052,RIG113,2023-01-28,Caught Between,Critical,30,4,Resolved,2023-02-16,Incident description 52,Action 52
-INC0053,RIG041,2023-04-25,Fire/Explosion,Critical,1,1,Resolved,2023-05-11,Incident description 53,Action 53
-INC0054,RIG102,2023-08-11,Fire/Explosion,Low,11,7,Open,,Incident description 54,Action 54
-INC0055,RIG036,2022-04-15,Slip/Trip/Fall,Medium,17,6,Resolved,2022-05-25,Incident description 55,Action 55
-INC0056,RIG044,2022-04-06,Falling Object,Low,15,5,Under Investigation,2022-05-02,Incident description 56,Action 56
-INC0057,RIG033,2022-01-03,Caught Between,Medium,30,1,Under Investigation,,Incident description 57,Action 57
-INC0058,RIG108,2023-06-30,Caught Between,Medium,20,1,Resolved,,Incident description 58,Action 58
-INC0059,RIG033,2023-01-14,Chemical Exposure,Low,26,1,Resolved,,Incident description 59,Action 59
-INC0060,RIG147,2022-03-12,Equipment Failure,Low,14,5,Under Investigation,2022-04-15,Incident description 60,Action 60
-INC0061,RIG154,2023-12-18,Slip/Trip/Fall,Medium,8,4,Resolved,,Incident description 61,Action 61
-INC0062,RIG054,2022-09-26,Struck By,High,14,3,Resolved,2022-10-02,Incident description 62,Action 62
-INC0063,RIG061,2023-02-19,Vehicle Accident,Low,4,7,Resolved,,Incident description 63,Action 63
-INC0064,RIG171,2023-08-06,Vehicle Accident,Critical,26,4,Under Investigation,2023-08-16,Incident description 64,Action 64
-INC0065,RIG109,2023-01-18,Equipment Failure,High,10,0,Resolved,2023-01-24,Incident description 65,Action 65
-INC0066,RIG065,2023-12-07,Chemical Exposure,Medium,6,7,Under Investigation,2024-01-18,Incident description 66,Action 66
-INC0067,RIG034,2022-10-30,Equipment Failure,Critical,14,6,Under Investigation,,Incident description 67,Action 67
-INC0068,RIG006,2022-07-08,Chemical Exposure,Low,17,5,Under Investigation,2022-08-02,Incident description 68,Action 68
-INC0069,RIG190,2022-08-22,Equipment Failure,Medium,9,2,Resolved,2022-09-14,Incident description 69,Action 69
-INC0070,RIG163,2022-04-05,Fire/Explosion,High,28,6,Resolved,2022-05-12,Incident description 70,Action 70
-INC0071,RIG035,2023-10-13,Vehicle Accident,Medium,26,5,Resolved,,Incident description 71,Action 71
-INC0072,RIG064,2023-03-20,Chemical Exposure,Low,2,5,Resolved,2023-04-25,Incident description 72,Action 72
-INC0073,RIG154,2023-06-05,Vehicle Accident,Low,1,4,Open,2023-06-09,Incident description 73,Action 73
-INC0074,RIG038,2023-07-20,Fire/Explosion,Low,27,2,Resolved,,Incident description 74,Action 74
-INC0075,RIG024,2022-04-03,Falling Object,Low,12,1,Resolved,,Incident description 75,Action 75
-INC0076,RIG026,2023-07-03,Struck By,Medium,26,7,Resolved,2023-08-07,Incident description 76,Action 76
-INC0077,RIG085,2022-10-25,Chemical Exposure,Medium,8,2,Open,2022-11-14,Incident description 77,Action 77
-INC0078,RIG037,2022-08-05,Struck By,High,0,3,Open,2022-09-01,Incident description 78,Action 78
-INC0079,RIG172,2022-06-11,Lifting Operation,Low,28,1,Resolved,2022-07-17,Incident description 79,Action 79
-INC0080,RIG175,2022-10-17,Lifting Operation,Low,27,5,Resolved,,Incident description 80,Action 80
-INC0081,RIG050,2023-10-10,Chemical Exposure,Medium,12,3,Resolved,2023-11-12,Incident description 81,Action 81
-INC0082,RIG104,2022-09-12,Vehicle Accident,Low,27,1,Resolved,2022-10-18,Incident description 82,Action 82
-INC0083,RIG096,2022-05-14,Struck By,Low,28,6,Under Investigation,2022-05-29,Incident description 83,Action 83
-INC0084,RIG075,2022-04-17,Vehicle Accident,Low,24,2,Resolved,2022-05-15,Incident description 84,Action 84
-INC0085,RIG128,2022-08-03,Caught Between,Critical,18,3,Resolved,2022-08-25,Incident description 85,Action 85
-INC0086,RIG163,2023-05-26,Vehicle Accident,Critical,15,5,Under Investigation,,Incident description 86,Action 86
-INC0087,RIG114,2022-11-25,Struck By,Low,8,2,Resolved,2023-01-06,Incident description 87,Action 87
-INC0088,RIG040,2023-07-16,Struck By,Medium,6,1,Resolved,2023-08-16,Incident description 88,Action 88
-INC0089,RIG166,2023-09-17,Struck By,Low,10,2,Resolved,2023-10-06,Incident description 89,Action 89
-INC0090,RIG150,2022-07-22,Slip/Trip/Fall,Critical,21,6,Resolved,2022-08-19,Incident description 90,Action 90
-INC0091,RIG081,2023-07-12,Slip/Trip/Fall,High,5,3,Resolved,2023-07-13,Incident description 91,Action 91
-INC0092,RIG027,2023-03-27,Slip/Trip/Fall,Medium,6,7,Resolved,,Incident description 92,Action 92
-INC0093,RIG008,2022-11-21,Chemical Exposure,Low,0,3,Resolved,2023-01-05,Incident description 93,Action 93
-INC0094,RIG072,2022-10-10,Falling Object,Medium,6,6,Open,2022-11-21,Incident description 94,Action 94
-INC0095,RIG104,2023-06-05,Lifting Operation,Low,17,0,Under Investigation,,Incident description 95,Action 95
-INC0096,RIG024,2023-02-10,Fire/Explosion,Low,3,2,Under Investigation,2023-03-04,Incident description 96,Action 96
-INC0097,RIG117,2022-08-01,Lifting Operation,High,4,6,Resolved,2022-08-23,Incident description 97,Action 97
-INC0098,RIG184,2022-03-30,Slip/Trip/Fall,Low,0,0,Resolved,2022-04-02,Incident description 98,Action 98
-INC0099,RIG194,2022-05-18,Slip/Trip/Fall,Medium,3,5,Under Investigation,2022-05-31,Incident description 99,Action 99
-INC0100,RIG106,2023-03-12,Slip/Trip/Fall,Low,7,6,Resolved,,Incident description 100,Action 100
-INC0101,RIG154,2022-12-15,Falling Object,Low,20,7,Resolved,,Incident description 101,Action 101
-INC0102,RIG080,2022-05-15,Falling Object,Medium,28,7,Open,2022-06-24,Incident description 102,Action 102
-INC0103,RIG054,2023-12-21,Chemical Exposure,Medium,5,5,Open,,Incident description 103,Action 103
-INC0104,RIG056,2023-06-01,Equipment Failure,High,10,2,Open,2023-06-22,Incident description 104,Action 104
-INC0105,RIG066,2022-03-15,Fire/Explosion,Low,3,2,Open,2022-03-16,Incident description 105,Action 105
-INC0106,RIG185,2023-12-31,Chemical Exposure,Low,30,3,Resolved,2024-01-14,Incident description 106,Action 106
-INC0107,RIG037,2023-05-09,Equipment Failure,High,18,1,Open,2023-05-18,Incident description 107,Action 107
-INC0108,RIG049,2023-03-12,Caught Between,Low,1,5,Resolved,2023-04-08,Incident description 108,Action 108
-INC0109,RIG048,2023-12-06,Chemical Exposure,Medium,19,2,Under Investigation,,Incident description 109,Action 109
-INC0110,RIG131,2023-04-08,Chemical Exposure,Critical,1,3,Resolved,,Incident description 110,Action 110
-INC0111,RIG019,2023-12-25,Fire/Explosion,Low,11,5,Resolved,2023-12-30,Incident description 111,Action 111
-INC0112,RIG023,2022-02-17,Vehicle Accident,Medium,10,1,Resolved,2022-04-02,Incident description 112,Action 112
-INC0113,RIG148,2022-11-07,Vehicle Accident,Medium,8,5,Resolved,2022-12-06,Incident description 113,Action 113
-INC0114,RIG051,2022-11-09,Fire/Explosion,Medium,12,3,Resolved,2022-12-15,Incident description 114,Action 114
-INC0115,RIG102,2022-09-22,Equipment Failure,Low,24,7,Resolved,,Incident description 115,Action 115
-INC0116,RIG063,2023-05-28,Struck By,Medium,21,3,Under Investigation,2023-06-05,Incident description 116,Action 116
-INC0117,RIG186,2022-01-30,Caught Between,Low,0,6,Resolved,2022-02-08,Incident description 117,Action 117
-INC0118,RIG134,2022-03-24,Fire/Explosion,Low,28,5,Resolved,2022-04-06,Incident description 118,Action 118
-INC0119,RIG017,2022-08-01,Vehicle Accident,Low,13,5,Resolved,,Incident description 119,Action 119
-INC0120,RIG135,2022-06-29,Struck By,Medium,14,1,Resolved,,Incident description 120,Action 120
-INC0121,RIG051,2023-10-11,Chemical Exposure,High,10,2,Resolved,2023-10-12,Incident description 121,Action 121
-INC0122,RIG147,2022-06-14,Falling Object,Low,26,6,Open,2022-07-06,Incident description 122,Action 122
-INC0123,RIG071,2022-09-20,Chemical Exposure,Low,28,4,Resolved,2022-09-30,Incident description 123,Action 123
-INC0124,RIG056,2022-09-09,Vehicle Accident,Low,9,2,Open,2022-10-03,Incident description 124,Action 124
-INC0125,RIG016,2022-09-24,Struck By,Low,2,4,Resolved,2022-10-08,Incident description 125,Action 125
-INC0126,RIG044,2023-08-30,Fire/Explosion,Low,4,1,Resolved,,Incident description 126,Action 126
-INC0127,RIG139,2022-12-18,Equipment Failure,Medium,18,0,Open,,Incident description 127,Action 127
-INC0128,RIG143,2022-04-22,Equipment Failure,Critical,0,0,Resolved,2022-04-30,Incident description 128,Action 128
-INC0129,RIG079,2022-10-25,Vehicle Accident,Medium,13,7,Resolved,2022-12-03,Incident description 129,Action 129
-INC0130,RIG181,2022-06-02,Caught Between,Low,7,6,Open,,Incident description 130,Action 130
-INC0131,RIG192,2022-10-26,Falling Object,Low,8,1,Resolved,,Incident description 131,Action 131
-INC0132,RIG120,2023-10-17,Lifting Operation,Critical,12,7,Under Investigation,2023-10-31,Incident description 132,Action 132
-INC0133,RIG096,2023-02-27,Caught Between,Medium,20,7,Resolved,2023-03-03,Incident description 133,Action 133
-INC0134,RIG112,2022-10-02,Struck By,Medium,8,7,Open,2022-11-11,Incident description 134,Action 134
-INC0135,RIG027,2022-12-03,Struck By,Low,14,0,Resolved,2023-01-14,Incident description 135,Action 135
-INC0136,RIG196,2023-09-04,Fire/Explosion,Medium,11,1,Open,2023-09-10,Incident description 136,Action 136
-INC0137,RIG111,2023-02-22,Vehicle Accident,Critical,21,5,Under Investigation,2023-04-03,Incident description 137,Action 137
-INC0138,RIG031,2022-04-25,Falling Object,Low,11,4,Under Investigation,,Incident description 138,Action 138
-INC0139,RIG010,2022-01-07,Vehicle Accident,Low,5,5,Resolved,2022-01-19,Incident description 139,Action 139
-INC0140,RIG110,2023-05-07,Lifting Operation,Low,20,4,Resolved,2023-06-12,Incident description 140,Action 140
-INC0141,RIG190,2022-06-14,Struck By,High,20,4,Resolved,2022-06-15,Incident description 141,Action 141
-INC0142,RIG030,2023-09-03,Fire/Explosion,Medium,21,3,Resolved,2023-09-13,Incident description 142,Action 142
-INC0143,RIG133,2023-11-19,Falling Object,High,17,3,Resolved,2023-11-21,Incident description 143,Action 143
-INC0144,RIG048,2023-03-26,Chemical Exposure,Low,25,5,Resolved,,Incident description 144,Action 144
-INC0145,RIG157,2023-04-15,Vehicle Accident,High,9,4,Resolved,,Incident description 145,Action 145
-INC0146,RIG193,2023-11-05,Caught Between,Critical,21,1,Resolved,2023-12-02,Incident description 146,Action 146
-INC0147,RIG159,2022-09-19,Equipment Failure,Low,15,1,Open,2022-09-20,Incident description 147,Action 147
-INC0148,RIG019,2022-04-02,Equipment Failure,Medium,13,3,Resolved,2022-04-20,Incident description 148,Action 148
-INC0149,RIG191,2022-02-13,Chemical Exposure,High,13,5,Under Investigation,2022-03-04,Incident description 149,Action 149
-INC0150,RIG068,2022-06-07,Falling Object,Low,30,0,Resolved,2022-07-05,Incident description 150,Action 150
-INC0151,RIG179,2023-10-30,Caught Between,High,4,5,Resolved,,Incident description 151,Action 151
-INC0152,RIG040,2023-04-17,Struck By,Medium,19,5,Resolved,2023-05-12,Incident description 152,Action 152
-INC0153,RIG071,2023-08-08,Falling Object,Medium,12,3,Under Investigation,2023-08-31,Incident description 153,Action 153
-INC0154,RIG178,2023-05-31,Caught Between,Medium,23,2,Resolved,,Incident description 154,Action 154
-INC0155,RIG062,2022-01-10,Vehicle Accident,Critical,19,6,Resolved,,Incident description 155,Action 155
-INC0156,RIG181,2022-05-26,Caught Between,Low,15,1,Resolved,2022-05-28,Incident description 156,Action 156
-INC0157,RIG134,2023-01-26,Chemical Exposure,Low,30,2,Under Investigation,2023-03-11,Incident description 157,Action 157
-INC0158,RIG062,2023-07-09,Chemical Exposure,Medium,21,4,Under Investigation,2023-08-15,Incident description 158,Action 158
-INC0159,RIG156,2022-07-11,Equipment Failure,Low,28,2,Resolved,2022-08-02,Incident description 159,Action 159
-INC0160,RIG114,2023-09-01,Struck By,High,24,7,Resolved,2023-09-17,Incident description 160,Action 160
-INC0161,RIG176,2022-08-18,Fire/Explosion,Medium,16,3,Resolved,2022-08-30,Incident description 161,Action 161
-INC0162,RIG084,2022-12-01,Chemical Exposure,Critical,19,2,Resolved,2023-01-06,Incident description 162,Action 162
-INC0163,RIG049,2024-01-01,Slip/Trip/Fall,Critical,16,2,Resolved,2024-01-31,Incident description 163,Action 163
-INC0164,RIG090,2022-10-04,Vehicle Accident,Medium,21,2,Resolved,2022-11-14,Incident description 164,Action 164
-INC0165,RIG055,2023-04-02,Lifting Operation,Low,11,1,Open,2023-05-16,Incident description 165,Action 165
-INC0166,RIG123,2023-07-31,Equipment Failure,Medium,30,1,Under Investigation,2023-09-02,Incident description 166,Action 166
-INC0167,RIG022,2022-02-02,Struck By,Low,3,4,Under Investigation,,Incident description 167,Action 167
-INC0168,RIG153,2022-01-11,Vehicle Accident,Critical,24,2,Under Investigation,,Incident description 168,Action 168
-INC0169,RIG025,2023-11-11,Slip/Trip/Fall,Medium,12,0,Resolved,,Incident description 169,Action 169
-INC0170,RIG099,2022-04-26,Fire/Explosion,Low,16,5,Resolved,2022-06-08,Incident description 170,Action 170
-INC0171,RIG155,2022-11-08,Equipment Failure,High,2,6,Open,,Incident description 171,Action 171
-INC0172,RIG070,2023-01-08,Struck By,High,6,1,Resolved,2023-02-11,Incident description 172,Action 172
-INC0173,RIG198,2022-11-14,Vehicle Accident,Medium,29,1,Open,2022-12-26,Incident description 173,Action 173
-INC0174,RIG070,2023-03-29,Fire/Explosion,Low,8,4,Resolved,2023-04-11,Incident description 174,Action 174
-INC0175,RIG128,2023-06-17,Slip/Trip/Fall,Medium,21,0,Under Investigation,2023-06-22,Incident description 175,Action 175
-INC0176,RIG175,2022-05-27,Lifting Operation,Critical,0,7,Resolved,2022-06-14,Incident description 176,Action 176
-INC0177,RIG074,2023-06-19,Vehicle Accident,Critical,26,3,Resolved,,Incident description 177,Action 177
-INC0178,RIG182,2022-01-22,Caught Between,High,20,7,Resolved,,Incident description 178,Action 178
-INC0179,RIG084,2023-09-28,Caught Between,Critical,21,4,Resolved,2023-10-29,Incident description 179,Action 179
-INC0180,RIG157,2023-09-07,Vehicle Accident,Medium,24,7,Resolved,2023-10-06,Incident description 180,Action 180
-INC0181,RIG040,2022-11-27,Struck By,Medium,18,6,Open,2022-11-30,Incident description 181,Action 181
-INC0182,RIG037,2023-11-12,Slip/Trip/Fall,Low,21,7,Resolved,2023-12-21,Incident description 182,Action 182
-INC0183,RIG085,2022-03-30,Chemical Exposure,Medium,7,1,Resolved,2022-04-05,Incident description 183,Action 183
-INC0184,RIG109,2022-11-06,Lifting Operation,High,16,4,Open,2022-11-30,Incident description 184,Action 184
-INC0185,RIG047,2022-09-02,Struck By,Low,11,3,Resolved,2022-10-15,Incident description 185,Action 185
-INC0186,RIG062,2022-04-12,Struck By,Medium,12,1,Under Investigation,2022-05-20,Incident description 186,Action 186
-INC0187,RIG063,2022-09-21,Slip/Trip/Fall,Low,10,3,Under Investigation,2022-10-28,Incident description 187,Action 187
-INC0188,RIG176,2023-02-08,Vehicle Accident,Low,0,6,Open,,Incident description 188,Action 188
-INC0189,RIG073,2022-03-05,Falling Object,Critical,26,1,Under Investigation,,Incident description 189,Action 189
-INC0190,RIG132,2022-07-29,Slip/Trip/Fall,Medium,19,1,Resolved,2022-08-10,Incident description 190,Action 190
-INC0191,RIG122,2023-11-05,Struck By,Critical,1,5,Open,2023-12-04,Incident description 191,Action 191
-INC0192,RIG021,2022-02-01,Falling Object,Low,9,3,Under Investigation,,Incident description 192,Action 192
-INC0193,RIG039,2022-11-06,Fire/Explosion,Medium,23,6,Resolved,2022-11-08,Incident description 193,Action 193
-INC0194,RIG107,2023-01-25,Struck By,Low,23,0,Resolved,,Incident description 194,Action 194
-INC0195,RIG171,2022-10-12,Lifting Operation,Low,5,3,Open,2022-10-22,Incident description 195,Action 195
-INC0196,RIG024,2022-09-29,Chemical Exposure,Critical,23,2,Resolved,2022-10-11,Incident description 196,Action 196
-INC0197,RIG064,2022-10-19,Falling Object,Medium,7,5,Resolved,2022-11-08,Incident description 197,Action 197
-INC0198,RIG095,2023-04-07,Fire/Explosion,Medium,30,6,Resolved,2023-04-26,Incident description 198,Action 198
-INC0199,RIG018,2023-04-06,Lifting Operation,High,12,2,Resolved,2023-04-27,Incident description 199,Action 199
-INC0200,RIG069,2024-01-01,Chemical Exposure,Critical,24,5,Open,2024-02-01,Incident description 200,Action 200
-INC0201,RIG190,2022-12-17,Chemical Exposure,Low,28,3,Open,2023-01-01,Incident description 201,Action 201
-INC0202,RIG180,2023-12-08,Falling Object,Medium,27,4,Resolved,2024-01-09,Incident description 202,Action 202
-INC0203,RIG198,2023-10-08,Vehicle Accident,Medium,20,5,Resolved,,Incident description 203,Action 203
-INC0204,RIG106,2022-02-24,Lifting Operation,Low,22,1,Resolved,2022-03-14,Incident description 204,Action 204
-INC0205,RIG127,2023-04-06,Fire/Explosion,Low,27,0,Resolved,,Incident description 205,Action 205
-INC0206,RIG153,2022-07-06,Vehicle Accident,High,0,6,Open,2022-07-18,Incident description 206,Action 206
-INC0207,RIG182,2022-05-22,Lifting Operation,Low,28,5,Resolved,2022-06-27,Incident description 207,Action 207
-INC0208,RIG132,2023-05-17,Chemical Exposure,Low,3,7,Resolved,2023-05-28,Incident description 208,Action 208
-INC0209,RIG015,2023-02-02,Struck By,Low,6,7,Resolved,2023-02-20,Incident description 209,Action 209
-INC0210,RIG098,2022-04-24,Lifting Operation,Low,27,4,Open,,Incident description 210,Action 210
-INC0211,RIG115,2022-11-03,Equipment Failure,Critical,6,6,Resolved,,Incident description 211,Action 211
-INC0212,RIG065,2022-12-21,Struck By,Medium,25,0,Resolved,2023-01-05,Incident description 212,Action 212
-INC0213,RIG087,2023-11-27,Slip/Trip/Fall,High,9,3,Resolved,,Incident description 213,Action 213
-INC0214,RIG116,2023-04-05,Slip/Trip/Fall,Medium,20,1,Under Investigation,2023-04-16,Incident description 214,Action 214
-INC0215,RIG003,2023-09-19,Falling Object,Low,4,0,Under Investigation,,Incident description 215,Action 215
-INC0216,RIG019,2022-08-06,Vehicle Accident,Medium,7,2,Under Investigation,,Incident description 216,Action 216
-INC0217,RIG178,2022-03-08,Fire/Explosion,Low,23,0,Resolved,2022-03-17,Incident description 217,Action 217
-INC0218,RIG021,2023-04-05,Caught Between,Low,2,3,Under Investigation,2023-04-10,Incident description 218,Action 218
-INC0219,RIG146,2022-08-09,Slip/Trip/Fall,High,11,7,Resolved,,Incident description 219,Action 219
-INC0220,RIG076,2023-10-01,Fire/Explosion,Low,1,0,Resolved,,Incident description 220,Action 220
-INC0221,RIG001,2022-04-19,Caught Between,Medium,4,6,Under Investigation,2022-05-15,Incident description 221,Action 221
-INC0222,RIG077,2023-12-30,Slip/Trip/Fall,Medium,29,2,Resolved,,Incident description 222,Action 222
-INC0223,RIG183,2022-02-16,Lifting Operation,Low,6,7,Resolved,,Incident description 223,Action 223
-INC0224,RIG120,2022-09-05,Equipment Failure,Medium,9,2,Resolved,,Incident description 224,Action 224
-INC0225,RIG148,2022-12-01,Struck By,Low,6,4,Resolved,2023-01-09,Incident description 225,Action 225
-INC0226,RIG004,2022-09-07,Vehicle Accident,Low,9,7,Under Investigation,2022-10-03,Incident description 226,Action 226
-INC0227,RIG077,2023-07-23,Lifting Operation,High,20,2,Resolved,2023-08-01,Incident description 227,Action 227
-INC0228,RIG121,2023-07-16,Caught Between,Critical,29,0,Resolved,2023-08-05,Incident description 228,Action 228
-INC0229,RIG017,2023-10-29,Fire/Explosion,High,12,5,Resolved,2023-11-18,Incident description 229,Action 229
-INC0230,RIG143,2023-10-25,Caught Between,Low,12,6,Resolved,2023-11-02,Incident description 230,Action 230
-INC0231,RIG172,2023-08-10,Falling Object,Low,5,0,Resolved,2023-09-06,Incident description 231,Action 231
-INC0232,RIG092,2023-06-06,Equipment Failure,Critical,30,6,Resolved,2023-06-16,Incident description 232,Action 232
-INC0233,RIG159,2022-08-14,Falling Object,Medium,6,0,Resolved,,Incident description 233,Action 233
-INC0234,RIG096,2022-01-01,Struck By,Low,29,5,Under Investigation,,Incident description 234,Action 234
-INC0235,RIG070,2022-08-23,Chemical Exposure,Low,13,4,Resolved,2022-09-09,Incident description 235,Action 235
-INC0236,RIG104,2022-11-14,Vehicle Accident,Critical,11,4,Resolved,2022-12-03,Incident description 236,Action 236
-INC0237,RIG031,2022-08-16,Vehicle Accident,Low,21,2,Open,2022-09-02,Incident description 237,Action 237
-INC0238,RIG079,2022-09-29,Vehicle Accident,Low,28,4,Under Investigation,2022-11-09,Incident description 238,Action 238
-INC0239,RIG037,2022-08-23,Vehicle Accident,Medium,12,2,Open,2022-08-27,Incident description 239,Action 239
-INC0240,RIG092,2023-12-05,Lifting Operation,Low,1,3,Resolved,2023-12-12,Incident description 240,Action 240
-INC0241,RIG166,2023-11-28,Vehicle Accident,Low,14,6,Resolved,,Incident description 241,Action 241
-INC0242,RIG119,2022-02-24,Vehicle Accident,Low,2,7,Resolved,2022-03-24,Incident description 242,Action 242
-INC0243,RIG049,2022-10-26,Equipment Failure,Medium,12,1,Under Investigation,2022-11-02,Incident description 243,Action 243
-INC0244,RIG115,2023-08-25,Falling Object,Medium,12,2,Resolved,,Incident description 244,Action 244
-INC0245,RIG156,2023-04-26,Vehicle Accident,Medium,1,5,Open,2023-05-16,Incident description 245,Action 245
-INC0246,RIG128,2023-05-15,Caught Between,Medium,8,1,Open,,Incident description 246,Action 246
-INC0247,RIG171,2022-03-13,Caught Between,Low,16,1,Resolved,2022-03-27,Incident description 247,Action 247
-INC0248,RIG133,2022-01-19,Chemical Exposure,High,30,4,Open,,Incident description 248,Action 248
-INC0249,RIG191,2023-05-16,Chemical Exposure,High,12,6,Resolved,,Incident description 249,Action 249
-INC0250,RIG065,2023-11-03,Fire/Explosion,Medium,7,0,Open,,Incident description 250,Action 250
-INC0251,RIG019,2023-12-23,Slip/Trip/Fall,High,18,1,Open,,Incident description 251,Action 251
-INC0252,RIG139,2022-08-08,Equipment Failure,Critical,30,6,Open,,Incident description 252,Action 252
-INC0253,RIG145,2023-06-28,Falling Object,Critical,29,7,Resolved,2023-07-18,Incident description 253,Action 253
-INC0254,RIG072,2023-07-17,Equipment Failure,Critical,20,0,Under Investigation,,Incident description 254,Action 254
-INC0255,RIG088,2022-04-24,Vehicle Accident,Medium,21,5,Resolved,,Incident description 255,Action 255
-INC0256,RIG014,2023-04-05,Slip/Trip/Fall,Low,18,5,Resolved,2023-05-10,Incident description 256,Action 256
-INC0257,RIG195,2022-08-12,Fire/Explosion,Low,12,1,Under Investigation,2022-09-23,Incident description 257,Action 257
-INC0258,RIG062,2023-11-25,Caught Between,Critical,4,2,Open,2023-12-19,Incident description 258,Action 258
-INC0259,RIG073,2022-07-09,Equipment Failure,Medium,27,6,Resolved,,Incident description 259,Action 259
-INC0260,RIG028,2022-08-06,Chemical Exposure,Low,25,3,Resolved,,Incident description 260,Action 260
-INC0261,RIG022,2023-03-08,Struck By,Medium,17,4,Resolved,2023-03-31,Incident description 261,Action 261
-INC0262,RIG132,2022-01-01,Struck By,Low,23,7,Under Investigation,2022-01-29,Incident description 262,Action 262
-INC0263,RIG162,2022-06-09,Struck By,Low,3,3,Under Investigation,2022-07-02,Incident description 263,Action 263
-INC0264,RIG149,2023-09-09,Chemical Exposure,Low,7,2,Open,2023-10-22,Incident description 264,Action 264
-INC0265,RIG116,2022-02-17,Vehicle Accident,High,23,2,Resolved,2022-03-02,Incident description 265,Action 265
-INC0266,RIG049,2023-12-09,Chemical Exposure,High,2,1,Resolved,2024-01-10,Incident description 266,Action 266
-INC0267,RIG178,2023-11-04,Lifting Operation,Medium,26,1,Resolved,,Incident description 267,Action 267
-INC0268,RIG170,2023-11-22,Chemical Exposure,Critical,7,6,Resolved,,Incident description 268,Action 268
-INC0269,RIG078,2022-01-31,Equipment Failure,Low,27,3,Open,2022-02-07,Incident description 269,Action 269
-INC0270,RIG082,2022-11-28,Caught Between,High,24,1,Resolved,2023-01-09,Incident description 270,Action 270
-INC0271,RIG133,2023-12-12,Lifting Operation,Low,23,4,Resolved,2024-01-22,Incident description 271,Action 271
-INC0272,RIG058,2023-01-23,Vehicle Accident,Medium,19,0,Resolved,,Incident description 272,Action 272
-INC0273,RIG115,2022-01-25,Fire/Explosion,Low,26,6,Resolved,2022-02-14,Incident description 273,Action 273
-INC0274,RIG112,2023-01-19,Vehicle Accident,Critical,17,1,Open,2023-02-16,Incident description 274,Action 274
-INC0275,RIG058,2023-11-25,Struck By,Medium,27,1,Resolved,2023-12-13,Incident description 275,Action 275
-INC0276,RIG049,2022-04-05,Equipment Failure,Low,17,6,Open,2022-04-30,Incident description 276,Action 276
-INC0277,RIG011,2023-04-04,Vehicle Accident,Low,24,6,Open,2023-05-02,Incident description 277,Action 277
-INC0278,RIG088,2023-04-16,Fire/Explosion,Medium,18,6,Open,2023-05-31,Incident description 278,Action 278
-INC0279,RIG192,2022-06-22,Lifting Operation,Medium,10,5,Resolved,2022-07-12,Incident description 279,Action 279
-INC0280,RIG133,2023-08-27,Lifting Operation,Medium,29,4,Open,,Incident description 280,Action 280
-INC0281,RIG058,2022-05-07,Equipment Failure,Low,4,1,Open,2022-06-02,Incident description 281,Action 281
-INC0282,RIG098,2022-01-30,Fire/Explosion,Medium,13,7,Resolved,2022-03-03,Incident description 282,Action 282
-INC0283,RIG118,2022-12-06,Equipment Failure,Medium,13,2,Resolved,,Incident description 283,Action 283
-INC0284,RIG158,2022-01-25,Lifting Operation,Low,19,0,Open,,Incident description 284,Action 284
-INC0285,RIG009,2022-12-24,Lifting Operation,Medium,23,3,Open,2023-01-09,Incident description 285,Action 285
-INC0286,RIG134,2022-03-27,Caught Between,Medium,11,3,Resolved,2022-04-26,Incident description 286,Action 286
-INC0287,RIG015,2022-04-11,Falling Object,Medium,17,1,Resolved,2022-05-17,Incident description 287,Action 287
-INC0288,RIG002,2022-04-02,Vehicle Accident,Low,4,5,Resolved,,Incident description 288,Action 288
-INC0289,RIG178,2022-01-22,Chemical Exposure,Critical,27,1,Resolved,2022-02-04,Incident description 289,Action 289
-INC0290,RIG043,2022-03-17,Slip/Trip/Fall,Medium,12,3,Resolved,2022-03-28,Incident description 290,Action 290
-INC0291,RIG080,2022-07-01,Lifting Operation,Low,0,0,Resolved,,Incident description 291,Action 291
-INC0292,RIG034,2022-11-16,Equipment Failure,Low,14,2,Open,2022-12-11,Incident description 292,Action 292
-INC0293,RIG001,2022-08-16,Fire/Explosion,High,2,4,Under Investigation,,Incident description 293,Action 293
-INC0294,RIG030,2023-01-15,Equipment Failure,Low,1,2,Under Investigation,2023-02-11,Incident description 294,Action 294
-INC0295,RIG004,2023-07-22,Fire/Explosion,Medium,17,3,Resolved,2023-08-08,Incident description 295,Action 295
-INC0296,RIG104,2023-08-06,Fire/Explosion,Low,22,0,Under Investigation,,Incident description 296,Action 296
-INC0297,RIG147,2023-08-06,Caught Between,Low,20,1,Resolved,2023-08-16,Incident description 297,Action 297
-INC0298,RIG007,2022-12-09,Falling Object,Medium,25,4,Resolved,,Incident description 298,Action 298
-INC0299,RIG172,2023-03-21,Lifting Operation,Low,15,6,Open,2023-05-03,Incident description 299,Action 299
-INC0300,RIG157,2022-04-12,Struck By,Critical,26,3,Open,2022-05-09,Incident description 300,Action 300
+INC0001,RIG085,2023-05-27,Equipment Failure,Low,3,3,Under Investigation,,Incident description 1,Action 1
+INC0002,RIG038,2025-02-14,Struck By,High,25,5,Resolved,2025-03-13,Incident description 2,Action 2
+INC0003,RIG089,2025-09-16,Caught Between,Medium,25,7,Under Investigation,,Incident description 3,Action 3
+INC0004,RIG120,2025-07-02,Falling Object,Low,5,2,Resolved,2025-07-04,Incident description 4,Action 4
+INC0005,RIG143,2025-03-26,Chemical Exposure,Low,30,0,Resolved,2025-05-03,Incident description 5,Action 5
+INC0006,RIG015,2024-11-27,Equipment Failure,Critical,14,3,Open,,Incident description 6,Action 6
+INC0007,RIG079,2025-10-05,Caught Between,High,30,7,Open,,Incident description 7,Action 7
+INC0008,RIG096,2025-09-18,Slip/Trip/Fall,Low,4,0,Under Investigation,,Incident description 8,Action 8
+INC0009,RIG137,2025-07-04,Slip/Trip/Fall,High,24,3,Under Investigation,,Incident description 9,Action 9
+INC0010,RIG062,2025-03-17,Equipment Failure,Low,5,0,Open,,Incident description 10,Action 10
+INC0011,RIG071,2025-02-02,Equipment Failure,Critical,19,1,Resolved,2025-02-09,Incident description 11,Action 11
+INC0012,RIG177,2025-11-05,Equipment Failure,Low,20,5,Resolved,,Incident description 12,Action 12
+INC0013,RIG089,2024-05-25,Vehicle Accident,Low,29,7,Under Investigation,,Incident description 13,Action 13
+INC0014,RIG017,2025-07-12,Struck By,Low,12,5,Resolved,,Incident description 14,Action 14
+INC0015,RIG169,2025-06-24,Caught Between,Low,21,4,Resolved,2025-07-12,Incident description 15,Action 15
+INC0016,RIG053,2025-06-15,Slip/Trip/Fall,Medium,10,1,Under Investigation,,Incident description 16,Action 16
+INC0017,RIG165,2025-09-19,Caught Between,Low,13,5,Resolved,2025-10-18,Incident description 17,Action 17
+INC0018,RIG009,2025-03-03,Fire/Explosion,Low,29,4,Resolved,2025-03-05,Incident description 18,Action 18
+INC0019,RIG191,2025-09-20,Chemical Exposure,Low,22,4,Resolved,2025-10-31,Incident description 19,Action 19
+INC0020,RIG184,2024-10-11,Chemical Exposure,Low,19,7,Resolved,2024-10-15,Incident description 20,Action 20
+INC0021,RIG073,2025-07-31,Vehicle Accident,High,15,0,Resolved,2025-08-26,Incident description 21,Action 21
+INC0022,RIG046,2023-03-22,Struck By,Medium,22,7,Resolved,,Incident description 22,Action 22
+INC0023,RIG177,2024-04-14,Lifting Operation,Critical,23,1,Resolved,,Incident description 23,Action 23
+INC0024,RIG067,2025-10-20,Fire/Explosion,Low,27,3,Under Investigation,,Incident description 24,Action 24
+INC0025,RIG017,2023-05-17,Vehicle Accident,Medium,27,5,Resolved,,Incident description 25,Action 25
+INC0026,RIG036,2025-06-12,Caught Between,Medium,14,6,Resolved,2025-07-09,Incident description 26,Action 26
+INC0027,RIG114,2025-08-31,Lifting Operation,Medium,4,2,Under Investigation,,Incident description 27,Action 27
+INC0028,RIG168,2025-06-03,Falling Object,Low,21,5,Resolved,2025-07-15,Incident description 28,Action 28
+INC0029,RIG055,2025-03-08,Lifting Operation,Medium,30,2,Under Investigation,,Incident description 29,Action 29
+INC0030,RIG057,2025-07-12,Equipment Failure,Critical,13,3,Resolved,,Incident description 30,Action 30
+INC0031,RIG171,2025-04-30,Falling Object,High,23,3,Resolved,2025-05-21,Incident description 31,Action 31
+INC0032,RIG078,2025-10-28,Vehicle Accident,High,20,3,Resolved,2025-10-31,Incident description 32,Action 32
+INC0033,RIG130,2025-06-10,Vehicle Accident,Low,20,6,Resolved,2025-07-13,Incident description 33,Action 33
+INC0034,RIG013,2025-02-19,Vehicle Accident,Low,30,4,Under Investigation,,Incident description 34,Action 34
+INC0035,RIG177,2024-12-17,Slip/Trip/Fall,Critical,0,7,Resolved,2024-12-22,Incident description 35,Action 35
+INC0036,RIG060,2023-01-11,Caught Between,Low,25,3,Resolved,2023-02-21,Incident description 36,Action 36
+INC0037,RIG135,2023-09-10,Caught Between,Critical,13,5,Open,,Incident description 37,Action 37
+INC0038,RIG101,2025-05-10,Chemical Exposure,High,25,6,Under Investigation,,Incident description 38,Action 38
+INC0039,RIG169,2025-04-06,Equipment Failure,Low,4,0,Resolved,,Incident description 39,Action 39
+INC0040,RIG064,2025-05-01,Chemical Exposure,Low,4,3,Under Investigation,,Incident description 40,Action 40
+INC0041,RIG063,2025-06-27,Struck By,Low,7,5,Open,,Incident description 41,Action 41
+INC0042,RIG061,2023-07-04,Falling Object,High,12,4,Open,,Incident description 42,Action 42
+INC0043,RIG100,2025-01-17,Struck By,Medium,0,0,Open,,Incident description 43,Action 43
+INC0044,RIG112,2024-11-06,Struck By,Low,23,4,Resolved,2024-11-24,Incident description 44,Action 44
+INC0045,RIG116,2025-09-23,Caught Between,Medium,11,7,Resolved,,Incident description 45,Action 45
+INC0046,RIG087,2024-03-15,Chemical Exposure,Critical,24,1,Open,,Incident description 46,Action 46
+INC0047,RIG122,2024-12-30,Struck By,Medium,25,7,Resolved,,Incident description 47,Action 47
+INC0048,RIG184,2023-04-04,Vehicle Accident,Low,20,2,Resolved,2023-04-10,Incident description 48,Action 48
+INC0049,RIG062,2025-02-15,Vehicle Accident,Medium,4,2,Resolved,2025-03-04,Incident description 49,Action 49
+INC0050,RIG051,2024-09-01,Equipment Failure,Low,3,5,Under Investigation,,Incident description 50,Action 50
+INC0051,RIG178,2025-10-28,Caught Between,Medium,21,1,Resolved,2025-11-10,Incident description 51,Action 51
+INC0052,RIG019,2025-05-21,Fire/Explosion,High,6,2,Under Investigation,,Incident description 52,Action 52
+INC0053,RIG075,2025-08-16,Vehicle Accident,Low,23,5,Resolved,2025-09-24,Incident description 53,Action 53
+INC0054,RIG200,2025-06-23,Vehicle Accident,Medium,21,6,Resolved,2025-07-20,Incident description 54,Action 54
+INC0055,RIG119,2025-06-20,Caught Between,Medium,17,0,Under Investigation,,Incident description 55,Action 55
+INC0056,RIG184,2024-05-13,Fire/Explosion,Medium,4,2,Resolved,2024-05-17,Incident description 56,Action 56
+INC0057,RIG093,2023-02-04,Falling Object,Low,28,7,Resolved,2023-02-28,Incident description 57,Action 57
+INC0058,RIG005,2023-09-19,Struck By,Low,9,5,Under Investigation,,Incident description 58,Action 58
+INC0059,RIG174,2025-06-11,Struck By,Low,24,0,Open,,Incident description 59,Action 59
+INC0060,RIG145,2025-05-03,Fire/Explosion,Low,0,6,Resolved,2025-05-23,Incident description 60,Action 60
+INC0061,RIG175,2025-08-26,Chemical Exposure,High,6,0,Under Investigation,,Incident description 61,Action 61
+INC0062,RIG148,2025-08-29,Struck By,Low,13,4,Resolved,2025-08-30,Incident description 62,Action 62
+INC0063,RIG004,2024-07-23,Fire/Explosion,Low,17,7,Open,,Incident description 63,Action 63
+INC0064,RIG049,2025-04-09,Lifting Operation,Critical,17,2,Under Investigation,,Incident description 64,Action 64
+INC0065,RIG082,2025-09-01,Lifting Operation,Low,16,2,Resolved,,Incident description 65,Action 65
+INC0066,RIG038,2025-04-01,Falling Object,Critical,4,1,Under Investigation,,Incident description 66,Action 66
+INC0067,RIG096,2024-03-19,Lifting Operation,Low,29,2,Resolved,,Incident description 67,Action 67
+INC0068,RIG150,2023-01-08,Struck By,Medium,27,5,Open,,Incident description 68,Action 68
+INC0069,RIG107,2025-05-04,Chemical Exposure,Low,20,1,Resolved,2025-05-18,Incident description 69,Action 69
+INC0070,RIG133,2025-09-17,Slip/Trip/Fall,Low,27,5,Resolved,2025-09-29,Incident description 70,Action 70
+INC0071,RIG174,2024-04-10,Fire/Explosion,Medium,5,0,Open,,Incident description 71,Action 71
+INC0072,RIG167,2025-07-20,Falling Object,High,30,7,Resolved,2025-07-25,Incident description 72,Action 72
+INC0073,RIG119,2025-05-31,Fire/Explosion,Low,3,6,Open,,Incident description 73,Action 73
+INC0074,RIG059,2024-07-16,Struck By,Medium,18,4,Resolved,2024-07-29,Incident description 74,Action 74
+INC0075,RIG021,2025-08-02,Fire/Explosion,Low,29,6,Open,,Incident description 75,Action 75
+INC0076,RIG021,2023-01-27,Chemical Exposure,Medium,4,5,Under Investigation,,Incident description 76,Action 76
+INC0077,RIG141,2025-08-08,Falling Object,Low,15,0,Resolved,2025-09-16,Incident description 77,Action 77
+INC0078,RIG099,2025-01-14,Lifting Operation,Medium,13,1,Under Investigation,,Incident description 78,Action 78
+INC0079,RIG036,2025-04-10,Struck By,Low,7,1,Under Investigation,,Incident description 79,Action 79
+INC0080,RIG112,2025-03-28,Chemical Exposure,High,23,5,Open,,Incident description 80,Action 80
+INC0081,RIG086,2025-02-01,Falling Object,Low,30,3,Resolved,2025-02-13,Incident description 81,Action 81
+INC0082,RIG096,2025-08-16,Lifting Operation,Critical,24,5,Open,,Incident description 82,Action 82
+INC0083,RIG049,2025-09-23,Caught Between,Low,26,3,Resolved,,Incident description 83,Action 83
+INC0084,RIG143,2025-04-06,Slip/Trip/Fall,Medium,7,6,Resolved,2025-04-07,Incident description 84,Action 84
+INC0085,RIG175,2025-08-16,Falling Object,Low,22,7,Resolved,,Incident description 85,Action 85
+INC0086,RIG155,2024-05-25,Caught Between,Medium,4,5,Open,,Incident description 86,Action 86
+INC0087,RIG023,2025-07-09,Chemical Exposure,Low,4,5,Open,,Incident description 87,Action 87
+INC0088,RIG074,2025-11-02,Caught Between,Medium,0,7,Resolved,2025-11-19,Incident description 88,Action 88
+INC0089,RIG175,2023-05-10,Chemical Exposure,Low,2,1,Resolved,2023-05-19,Incident description 89,Action 89
+INC0090,RIG128,2025-01-08,Falling Object,Medium,24,4,Resolved,,Incident description 90,Action 90
+INC0091,RIG180,2025-02-20,Equipment Failure,Low,28,5,Open,,Incident description 91,Action 91
+INC0092,RIG045,2024-02-27,Caught Between,Low,5,1,Resolved,2024-03-09,Incident description 92,Action 92
+INC0093,RIG037,2024-06-01,Chemical Exposure,Low,28,6,Resolved,,Incident description 93,Action 93
+INC0094,RIG094,2025-02-15,Fire/Explosion,Medium,7,0,Under Investigation,,Incident description 94,Action 94
+INC0095,RIG077,2025-02-02,Caught Between,Low,7,7,Open,,Incident description 95,Action 95
+INC0096,RIG033,2025-03-28,Slip/Trip/Fall,Low,12,7,Resolved,,Incident description 96,Action 96
+INC0097,RIG026,2025-10-11,Caught Between,Low,26,1,Open,,Incident description 97,Action 97
+INC0098,RIG155,2024-06-12,Slip/Trip/Fall,Low,6,0,Resolved,,Incident description 98,Action 98
+INC0099,RIG087,2025-04-29,Fire/Explosion,Low,0,0,Resolved,2025-06-04,Incident description 99,Action 99
+INC0100,RIG149,2023-11-11,Equipment Failure,Low,15,5,Resolved,2023-11-23,Incident description 100,Action 100
+INC0101,RIG166,2025-07-14,Vehicle Accident,Medium,27,2,Under Investigation,,Incident description 101,Action 101
+INC0102,RIG011,2025-10-03,Fire/Explosion,High,23,7,Under Investigation,,Incident description 102,Action 102
+INC0103,RIG154,2025-05-22,Falling Object,Low,3,1,Resolved,,Incident description 103,Action 103
+INC0104,RIG001,2025-08-19,Struck By,Critical,15,0,Resolved,2025-08-26,Incident description 104,Action 104
+INC0105,RIG174,2024-12-06,Fire/Explosion,Critical,21,3,Resolved,2025-01-07,Incident description 105,Action 105
+INC0106,RIG123,2025-03-07,Lifting Operation,Low,21,7,Resolved,2025-04-18,Incident description 106,Action 106
+INC0107,RIG134,2024-01-20,Struck By,Critical,11,7,Resolved,2024-01-28,Incident description 107,Action 107
+INC0108,RIG037,2025-05-26,Falling Object,High,24,1,Under Investigation,,Incident description 108,Action 108
+INC0109,RIG004,2023-03-14,Equipment Failure,Critical,3,4,Resolved,2023-03-15,Incident description 109,Action 109
+INC0110,RIG193,2025-03-25,Vehicle Accident,Low,27,6,Resolved,2025-04-22,Incident description 110,Action 110
+INC0111,RIG130,2025-07-15,Struck By,High,11,0,Resolved,2025-07-17,Incident description 111,Action 111
+INC0112,RIG061,2024-01-05,Equipment Failure,Medium,27,7,Resolved,2024-02-18,Incident description 112,Action 112
+INC0113,RIG128,2024-06-25,Slip/Trip/Fall,Low,22,2,Under Investigation,,Incident description 113,Action 113
+INC0114,RIG122,2024-09-06,Lifting Operation,Critical,11,2,Open,,Incident description 114,Action 114
+INC0115,RIG079,2025-06-11,Falling Object,Medium,13,5,Under Investigation,,Incident description 115,Action 115
+INC0116,RIG030,2024-11-08,Caught Between,Critical,21,0,Under Investigation,,Incident description 116,Action 116
+INC0117,RIG056,2025-05-11,Chemical Exposure,Low,11,6,Under Investigation,,Incident description 117,Action 117
+INC0118,RIG001,2025-11-02,Slip/Trip/Fall,Low,9,2,Resolved,2025-11-14,Incident description 118,Action 118
+INC0119,RIG146,2023-10-03,Slip/Trip/Fall,Medium,28,1,Open,,Incident description 119,Action 119
+INC0120,RIG096,2024-10-06,Equipment Failure,Critical,23,5,Under Investigation,,Incident description 120,Action 120
+INC0121,RIG014,2023-05-13,Vehicle Accident,Medium,6,1,Resolved,2023-05-18,Incident description 121,Action 121
+INC0122,RIG197,2024-03-25,Struck By,Low,14,7,Open,,Incident description 122,Action 122
+INC0123,RIG099,2025-09-23,Vehicle Accident,Low,2,5,Under Investigation,,Incident description 123,Action 123
+INC0124,RIG069,2025-01-02,Fire/Explosion,Critical,15,0,Resolved,2025-01-31,Incident description 124,Action 124
+INC0125,RIG112,2025-02-07,Vehicle Accident,Low,20,4,Open,,Incident description 125,Action 125
+INC0126,RIG155,2024-11-30,Lifting Operation,Medium,0,4,Resolved,2025-01-12,Incident description 126,Action 126
+INC0127,RIG012,2025-11-12,Caught Between,High,2,5,Resolved,2025-11-20,Incident description 127,Action 127
+INC0128,RIG071,2025-01-28,Fire/Explosion,Low,10,5,Resolved,2025-02-04,Incident description 128,Action 128
+INC0129,RIG171,2025-08-16,Caught Between,High,19,5,Under Investigation,,Incident description 129,Action 129
+INC0130,RIG123,2025-05-12,Equipment Failure,Critical,30,4,Open,,Incident description 130,Action 130
+INC0131,RIG086,2025-06-20,Caught Between,Low,28,6,Resolved,,Incident description 131,Action 131
+INC0132,RIG116,2025-02-13,Lifting Operation,High,24,1,Open,,Incident description 132,Action 132
+INC0133,RIG007,2025-10-16,Struck By,Medium,29,0,Resolved,2025-11-16,Incident description 133,Action 133
+INC0134,RIG097,2025-09-04,Struck By,Low,3,7,Resolved,2025-09-14,Incident description 134,Action 134
+INC0135,RIG095,2025-10-07,Lifting Operation,Low,22,0,Resolved,2025-11-15,Incident description 135,Action 135
+INC0136,RIG003,2025-01-04,Struck By,Low,2,1,Under Investigation,,Incident description 136,Action 136
+INC0137,RIG072,2025-10-20,Fire/Explosion,Medium,29,5,Resolved,2025-11-24,Incident description 137,Action 137
+INC0138,RIG002,2025-06-27,Vehicle Accident,Medium,6,6,Under Investigation,,Incident description 138,Action 138
+INC0139,RIG063,2025-10-30,Lifting Operation,Medium,26,0,Resolved,2025-11-22,Incident description 139,Action 139
+INC0140,RIG163,2024-07-26,Chemical Exposure,Low,28,6,Resolved,2024-08-30,Incident description 140,Action 140
+INC0141,RIG109,2024-10-13,Lifting Operation,Medium,12,3,Under Investigation,,Incident description 141,Action 141
+INC0142,RIG008,2024-04-08,Caught Between,High,13,5,Open,,Incident description 142,Action 142
+INC0143,RIG160,2025-11-08,Caught Between,Low,17,0,Resolved,,Incident description 143,Action 143
+INC0144,RIG117,2025-09-23,Falling Object,Low,23,4,Resolved,2025-10-10,Incident description 144,Action 144
+INC0145,RIG114,2025-02-19,Fire/Explosion,Critical,24,2,Resolved,,Incident description 145,Action 145
+INC0146,RIG009,2025-03-26,Chemical Exposure,Low,18,4,Open,,Incident description 146,Action 146
+INC0147,RIG033,2023-02-15,Equipment Failure,Low,5,6,Under Investigation,,Incident description 147,Action 147
+INC0148,RIG077,2025-07-25,Vehicle Accident,High,28,1,Resolved,2025-07-28,Incident description 148,Action 148
+INC0149,RIG097,2025-03-08,Caught Between,Medium,3,1,Resolved,2025-03-24,Incident description 149,Action 149
+INC0150,RIG043,2024-09-19,Slip/Trip/Fall,Low,16,1,Resolved,2024-11-02,Incident description 150,Action 150
+INC0151,RIG026,2025-02-07,Lifting Operation,Low,15,6,Resolved,2025-02-17,Incident description 151,Action 151
+INC0152,RIG186,2025-07-17,Caught Between,Low,21,7,Under Investigation,,Incident description 152,Action 152
+INC0153,RIG191,2025-08-26,Fire/Explosion,Low,18,7,Under Investigation,,Incident description 153,Action 153
+INC0154,RIG088,2025-10-10,Struck By,Medium,20,3,Under Investigation,,Incident description 154,Action 154
+INC0155,RIG101,2025-02-23,Caught Between,Medium,8,1,Resolved,2025-02-27,Incident description 155,Action 155
+INC0156,RIG022,2025-07-20,Chemical Exposure,Critical,17,0,Resolved,2025-08-12,Incident description 156,Action 156
+INC0157,RIG119,2025-05-19,Caught Between,High,17,0,Resolved,2025-06-05,Incident description 157,Action 157
+INC0158,RIG035,2024-07-13,Struck By,High,10,7,Under Investigation,,Incident description 158,Action 158
+INC0159,RIG059,2023-11-08,Slip/Trip/Fall,Medium,12,0,Resolved,2023-12-22,Incident description 159,Action 159
+INC0160,RIG174,2025-05-29,Slip/Trip/Fall,Critical,20,0,Resolved,2025-06-15,Incident description 160,Action 160
+INC0161,RIG005,2025-09-22,Falling Object,Critical,25,2,Under Investigation,,Incident description 161,Action 161
+INC0162,RIG162,2025-09-28,Slip/Trip/Fall,Critical,22,2,Resolved,,Incident description 162,Action 162
+INC0163,RIG195,2025-04-01,Chemical Exposure,Low,26,6,Resolved,2025-04-10,Incident description 163,Action 163
+INC0164,RIG196,2024-09-30,Struck By,Critical,30,5,Under Investigation,,Incident description 164,Action 164
+INC0165,RIG009,2024-07-08,Vehicle Accident,Medium,10,4,Under Investigation,,Incident description 165,Action 165
+INC0166,RIG156,2025-03-29,Caught Between,Low,19,1,Open,,Incident description 166,Action 166
+INC0167,RIG054,2025-10-30,Vehicle Accident,Low,10,1,Under Investigation,,Incident description 167,Action 167
+INC0168,RIG155,2023-04-27,Falling Object,Low,3,5,Open,,Incident description 168,Action 168
+INC0169,RIG148,2024-10-29,Struck By,Medium,5,7,Resolved,2024-11-02,Incident description 169,Action 169
+INC0170,RIG119,2025-06-06,Vehicle Accident,Low,4,7,Resolved,,Incident description 170,Action 170
+INC0171,RIG064,2025-07-26,Lifting Operation,Low,29,6,Under Investigation,,Incident description 171,Action 171
+INC0172,RIG128,2025-01-03,Chemical Exposure,Low,9,3,Resolved,2025-01-12,Incident description 172,Action 172
+INC0173,RIG081,2025-11-06,Falling Object,High,3,0,Resolved,,Incident description 173,Action 173
+INC0174,RIG097,2025-11-11,Lifting Operation,Medium,17,3,Resolved,2025-11-13,Incident description 174,Action 174
+INC0175,RIG144,2025-08-29,Slip/Trip/Fall,Low,11,6,Resolved,,Incident description 175,Action 175
+INC0176,RIG180,2025-07-15,Equipment Failure,Medium,12,3,Resolved,,Incident description 176,Action 176
+INC0177,RIG032,2025-08-30,Lifting Operation,Critical,8,5,Under Investigation,,Incident description 177,Action 177
+INC0178,RIG162,2023-10-04,Chemical Exposure,High,22,3,Open,,Incident description 178,Action 178
+INC0179,RIG166,2023-03-29,Caught Between,Low,4,4,Resolved,2023-04-01,Incident description 179,Action 179
+INC0180,RIG028,2023-12-30,Chemical Exposure,Medium,25,2,Resolved,2024-01-19,Incident description 180,Action 180
+INC0181,RIG085,2025-03-19,Caught Between,Low,28,3,Resolved,,Incident description 181,Action 181
+INC0182,RIG140,2023-10-25,Equipment Failure,Low,17,2,Open,,Incident description 182,Action 182
+INC0183,RIG145,2025-09-10,Slip/Trip/Fall,Critical,26,2,Open,,Incident description 183,Action 183
+INC0184,RIG155,2025-10-17,Equipment Failure,Low,12,0,Resolved,2025-11-20,Incident description 184,Action 184
+INC0185,RIG060,2025-09-27,Falling Object,Low,24,2,Open,,Incident description 185,Action 185
+INC0186,RIG015,2024-12-31,Caught Between,Low,7,2,Resolved,2025-02-11,Incident description 186,Action 186
+INC0187,RIG097,2025-10-05,Slip/Trip/Fall,Low,21,0,Resolved,2025-10-10,Incident description 187,Action 187
+INC0188,RIG165,2023-05-31,Chemical Exposure,Low,29,2,Resolved,2023-06-18,Incident description 188,Action 188
+INC0189,RIG132,2024-04-17,Slip/Trip/Fall,Low,30,5,Resolved,2024-05-05,Incident description 189,Action 189
+INC0190,RIG040,2025-11-07,Vehicle Accident,Critical,2,5,Open,,Incident description 190,Action 190
+INC0191,RIG146,2025-11-03,Struck By,Low,30,6,Resolved,,Incident description 191,Action 191
+INC0192,RIG012,2025-10-28,Equipment Failure,Low,0,2,Resolved,,Incident description 192,Action 192
+INC0193,RIG177,2025-07-17,Fire/Explosion,Low,1,0,Resolved,2025-08-30,Incident description 193,Action 193
+INC0194,RIG068,2025-06-23,Chemical Exposure,Low,1,6,Resolved,,Incident description 194,Action 194
+INC0195,RIG112,2025-01-21,Caught Between,Low,10,4,Resolved,2025-02-16,Incident description 195,Action 195
+INC0196,RIG034,2025-10-26,Falling Object,Medium,5,6,Resolved,2025-11-28,Incident description 196,Action 196
+INC0197,RIG075,2024-12-15,Lifting Operation,Low,27,7,Open,,Incident description 197,Action 197
+INC0198,RIG183,2025-11-06,Equipment Failure,Low,30,3,Open,,Incident description 198,Action 198
+INC0199,RIG150,2025-08-10,Struck By,High,24,0,Open,,Incident description 199,Action 199
+INC0200,RIG107,2025-04-20,Caught Between,Low,27,0,Resolved,2025-04-23,Incident description 200,Action 200
+INC0201,RIG037,2025-01-17,Slip/Trip/Fall,Critical,7,1,Resolved,2025-02-06,Incident description 201,Action 201
+INC0202,RIG090,2023-11-18,Slip/Trip/Fall,Low,2,6,Open,,Incident description 202,Action 202
+INC0203,RIG082,2025-03-06,Struck By,High,1,0,Resolved,2025-03-09,Incident description 203,Action 203
+INC0204,RIG018,2023-08-12,Slip/Trip/Fall,Medium,4,5,Open,,Incident description 204,Action 204
+INC0205,RIG153,2025-02-03,Fire/Explosion,Low,3,5,Resolved,,Incident description 205,Action 205
+INC0206,RIG096,2025-06-24,Caught Between,Medium,26,5,Open,,Incident description 206,Action 206
+INC0207,RIG168,2023-04-26,Equipment Failure,Medium,13,6,Open,,Incident description 207,Action 207
+INC0208,RIG129,2025-01-07,Lifting Operation,Low,10,5,Resolved,2025-02-18,Incident description 208,Action 208
+INC0209,RIG066,2024-06-23,Chemical Exposure,Low,17,1,Under Investigation,,Incident description 209,Action 209
+INC0210,RIG140,2025-02-09,Fire/Explosion,Medium,14,7,Resolved,2025-02-14,Incident description 210,Action 210
+INC0211,RIG013,2025-11-02,Fire/Explosion,Low,25,4,Resolved,2025-11-28,Incident description 211,Action 211
+INC0212,RIG146,2025-03-18,Slip/Trip/Fall,High,22,6,Under Investigation,,Incident description 212,Action 212
+INC0213,RIG095,2025-05-30,Slip/Trip/Fall,Low,17,2,Resolved,,Incident description 213,Action 213
+INC0214,RIG153,2025-09-29,Lifting Operation,Medium,8,2,Resolved,2025-10-29,Incident description 214,Action 214
+INC0215,RIG103,2024-01-05,Vehicle Accident,High,18,0,Resolved,2024-02-16,Incident description 215,Action 215
+INC0216,RIG043,2023-06-28,Slip/Trip/Fall,Low,28,4,Resolved,,Incident description 216,Action 216
+INC0217,RIG077,2024-03-30,Lifting Operation,Critical,7,6,Resolved,,Incident description 217,Action 217
+INC0218,RIG045,2025-10-16,Struck By,High,5,2,Resolved,2025-11-30,Incident description 218,Action 218
+INC0219,RIG146,2025-10-15,Struck By,Low,28,0,Resolved,2025-11-17,Incident description 219,Action 219
+INC0220,RIG060,2023-02-25,Caught Between,High,25,1,Resolved,,Incident description 220,Action 220
+INC0221,RIG084,2024-07-28,Struck By,Low,1,6,Resolved,2024-08-15,Incident description 221,Action 221
+INC0222,RIG059,2023-02-15,Lifting Operation,Low,13,7,Open,,Incident description 222,Action 222
+INC0223,RIG128,2025-08-25,Fire/Explosion,Low,7,2,Resolved,,Incident description 223,Action 223
+INC0224,RIG099,2025-08-02,Lifting Operation,Medium,14,3,Resolved,2025-08-10,Incident description 224,Action 224
+INC0225,RIG121,2025-02-02,Fire/Explosion,Medium,27,5,Resolved,,Incident description 225,Action 225
+INC0226,RIG185,2025-05-01,Caught Between,Low,6,6,Under Investigation,,Incident description 226,Action 226
+INC0227,RIG078,2025-03-19,Lifting Operation,Medium,15,5,Resolved,2025-03-26,Incident description 227,Action 227
+INC0228,RIG030,2023-04-12,Fire/Explosion,Low,2,3,Resolved,2023-05-02,Incident description 228,Action 228
+INC0229,RIG129,2025-09-20,Struck By,Low,19,2,Under Investigation,,Incident description 229,Action 229
+INC0230,RIG185,2024-03-12,Vehicle Accident,Low,7,6,Open,,Incident description 230,Action 230
+INC0231,RIG183,2025-02-04,Slip/Trip/Fall,Medium,16,1,Resolved,2025-03-04,Incident description 231,Action 231
+INC0232,RIG185,2025-08-18,Vehicle Accident,Medium,23,0,Resolved,2025-09-12,Incident description 232,Action 232
+INC0233,RIG044,2025-08-21,Equipment Failure,Medium,15,3,Resolved,2025-10-05,Incident description 233,Action 233
+INC0234,RIG117,2025-10-02,Slip/Trip/Fall,Critical,29,6,Resolved,2025-10-29,Incident description 234,Action 234
+INC0235,RIG137,2025-05-03,Slip/Trip/Fall,Medium,19,3,Resolved,2025-05-26,Incident description 235,Action 235
+INC0236,RIG131,2025-09-06,Lifting Operation,Low,1,7,Resolved,2025-09-10,Incident description 236,Action 236
+INC0237,RIG085,2025-09-30,Equipment Failure,Low,22,6,Open,,Incident description 237,Action 237
+INC0238,RIG049,2025-04-18,Falling Object,Medium,2,0,Under Investigation,,Incident description 238,Action 238
+INC0239,RIG031,2025-03-22,Fire/Explosion,High,2,1,Resolved,,Incident description 239,Action 239
+INC0240,RIG063,2025-10-26,Caught Between,Low,15,7,Resolved,,Incident description 240,Action 240
+INC0241,RIG186,2025-01-16,Fire/Explosion,Low,3,4,Resolved,,Incident description 241,Action 241
+INC0242,RIG047,2025-06-14,Equipment Failure,High,24,5,Open,,Incident description 242,Action 242
+INC0243,RIG076,2023-06-24,Struck By,Low,5,5,Resolved,,Incident description 243,Action 243
+INC0244,RIG032,2025-10-08,Struck By,Medium,9,3,Resolved,,Incident description 244,Action 244
+INC0245,RIG080,2025-03-24,Struck By,Medium,1,6,Resolved,2025-04-09,Incident description 245,Action 245
+INC0246,RIG116,2024-04-16,Struck By,Medium,23,6,Open,,Incident description 246,Action 246
+INC0247,RIG143,2025-06-15,Struck By,Low,0,4,Resolved,2025-06-19,Incident description 247,Action 247
+INC0248,RIG171,2024-05-13,Falling Object,Low,17,5,Open,,Incident description 248,Action 248
+INC0249,RIG040,2025-09-24,Slip/Trip/Fall,Critical,12,3,Resolved,2025-10-16,Incident description 249,Action 249
+INC0250,RIG032,2023-08-23,Fire/Explosion,Low,21,1,Open,,Incident description 250,Action 250
+INC0251,RIG122,2025-09-14,Falling Object,Medium,11,1,Resolved,,Incident description 251,Action 251
+INC0252,RIG017,2024-01-02,Caught Between,Low,28,1,Resolved,2024-01-17,Incident description 252,Action 252
+INC0253,RIG099,2025-04-24,Struck By,Low,23,3,Open,,Incident description 253,Action 253
+INC0254,RIG010,2025-10-05,Lifting Operation,Medium,19,6,Open,,Incident description 254,Action 254
+INC0255,RIG183,2024-06-21,Struck By,Low,5,4,Under Investigation,,Incident description 255,Action 255
+INC0256,RIG149,2025-09-09,Chemical Exposure,Low,26,0,Resolved,2025-09-29,Incident description 256,Action 256
+INC0257,RIG078,2025-09-20,Caught Between,Medium,17,4,Resolved,2025-10-16,Incident description 257,Action 257
+INC0258,RIG093,2025-09-29,Slip/Trip/Fall,Medium,18,5,Resolved,,Incident description 258,Action 258
+INC0259,RIG099,2025-10-17,Chemical Exposure,Low,0,6,Open,,Incident description 259,Action 259
+INC0260,RIG044,2023-08-01,Struck By,Medium,4,6,Open,,Incident description 260,Action 260
+INC0261,RIG178,2023-06-30,Caught Between,Low,6,7,Resolved,2023-08-07,Incident description 261,Action 261
+INC0262,RIG061,2025-10-03,Caught Between,Medium,2,4,Under Investigation,,Incident description 262,Action 262
+INC0263,RIG083,2025-10-06,Equipment Failure,Medium,23,7,Open,,Incident description 263,Action 263
+INC0264,RIG076,2024-05-02,Struck By,Low,27,1,Resolved,,Incident description 264,Action 264
+INC0265,RIG074,2025-09-19,Chemical Exposure,Low,13,4,Open,,Incident description 265,Action 265
+INC0266,RIG198,2024-06-12,Chemical Exposure,Medium,7,2,Resolved,2024-07-16,Incident description 266,Action 266
+INC0267,RIG101,2025-01-19,Slip/Trip/Fall,High,30,0,Resolved,,Incident description 267,Action 267
+INC0268,RIG060,2025-08-08,Fire/Explosion,Low,11,3,Resolved,2025-09-03,Incident description 268,Action 268
+INC0269,RIG039,2025-04-07,Equipment Failure,Low,18,6,Resolved,2025-04-20,Incident description 269,Action 269
+INC0270,RIG051,2025-11-12,Fire/Explosion,Medium,27,0,Resolved,2025-11-24,Incident description 270,Action 270
+INC0271,RIG089,2025-08-09,Caught Between,Critical,7,6,Open,,Incident description 271,Action 271
+INC0272,RIG146,2024-11-08,Chemical Exposure,Medium,25,5,Resolved,,Incident description 272,Action 272
+INC0273,RIG174,2025-01-24,Slip/Trip/Fall,Medium,27,2,Open,,Incident description 273,Action 273
+INC0274,RIG105,2023-01-28,Slip/Trip/Fall,Low,7,6,Resolved,,Incident description 274,Action 274
+INC0275,RIG006,2025-02-23,Chemical Exposure,Critical,19,7,Resolved,2025-03-22,Incident description 275,Action 275
+INC0276,RIG135,2025-10-15,Fire/Explosion,Low,14,3,Resolved,2025-10-16,Incident description 276,Action 276
+INC0277,RIG185,2023-04-12,Lifting Operation,Medium,21,7,Resolved,2023-04-15,Incident description 277,Action 277
+INC0278,RIG056,2025-06-18,Falling Object,Low,12,0,Resolved,2025-07-12,Incident description 278,Action 278
+INC0279,RIG151,2025-03-24,Struck By,Low,2,6,Resolved,2025-04-08,Incident description 279,Action 279
+INC0280,RIG198,2023-01-02,Caught Between,High,19,4,Resolved,2023-01-31,Incident description 280,Action 280
+INC0281,RIG045,2025-09-03,Falling Object,Critical,5,5,Resolved,2025-09-27,Incident description 281,Action 281
+INC0282,RIG134,2025-06-12,Struck By,Low,11,7,Resolved,2025-07-05,Incident description 282,Action 282
+INC0283,RIG161,2025-10-05,Slip/Trip/Fall,Medium,21,2,Resolved,2025-11-17,Incident description 283,Action 283
+INC0284,RIG074,2024-07-06,Equipment Failure,Medium,20,0,Open,,Incident description 284,Action 284
+INC0285,RIG092,2023-07-16,Caught Between,Low,10,5,Open,,Incident description 285,Action 285
+INC0286,RIG088,2025-02-16,Fire/Explosion,Medium,13,3,Open,,Incident description 286,Action 286
+INC0287,RIG190,2025-06-09,Equipment Failure,Low,2,4,Under Investigation,,Incident description 287,Action 287
+INC0288,RIG058,2025-04-28,Slip/Trip/Fall,Low,4,5,Under Investigation,,Incident description 288,Action 288
+INC0289,RIG125,2025-10-10,Chemical Exposure,Critical,14,4,Under Investigation,,Incident description 289,Action 289
+INC0290,RIG019,2025-09-18,Fire/Explosion,High,24,6,Resolved,2025-10-12,Incident description 290,Action 290
+INC0291,RIG172,2025-10-27,Vehicle Accident,Medium,23,1,Under Investigation,,Incident description 291,Action 291
+INC0292,RIG026,2025-02-21,Fire/Explosion,Low,16,7,Under Investigation,,Incident description 292,Action 292
+INC0293,RIG039,2025-02-02,Equipment Failure,Low,16,6,Under Investigation,,Incident description 293,Action 293
+INC0294,RIG070,2023-10-05,Equipment Failure,Critical,16,7,Resolved,2023-10-22,Incident description 294,Action 294
+INC0295,RIG001,2024-05-04,Equipment Failure,Medium,27,1,Resolved,2024-06-03,Incident description 295,Action 295
+INC0296,RIG044,2024-06-02,Slip/Trip/Fall,High,30,4,Resolved,2024-06-24,Incident description 296,Action 296
+INC0297,RIG046,2025-10-20,Fire/Explosion,Low,15,7,Under Investigation,,Incident description 297,Action 297
+INC0298,RIG136,2025-04-27,Fire/Explosion,Medium,12,3,Open,,Incident description 298,Action 298
+INC0299,RIG012,2025-08-31,Caught Between,High,13,3,Under Investigation,,Incident description 299,Action 299
+INC0300,RIG073,2024-10-28,Slip/Trip/Fall,Medium,2,0,Resolved,2024-12-05,Incident description 300,Action 300
